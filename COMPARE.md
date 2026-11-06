@@ -9,7 +9,7 @@ Using the [Google Design Sprint](https://learningisliving.dk/wp-content/uploads/
 - **Wednesday and Thursday** \-  Go to developing ideas and scoring them, usually in another workshop, with calendars to match and half the room losing energy.  
 - **Friday** \- Is for choosing what to test and writing up the pretotypes.
 
-## Time wasted
+## Waste of time
 
 Counting the waiting between meetings, the writing and the follow-up mails, one problem takes roughly a week of calendar time. The people are doing real thinking, but a large share of the time goes to scheduling, copying notes between tools and agreeing on a shared picture of the evidence.
 
@@ -24,6 +24,7 @@ In ask mode, Ideator stops at the natural decision points, after Define, after D
 The workload and time needed by the research- and image board tasks are influenced by the knob settings.
 
 Strive to reduce the workload by using the lowest possible knob values.
+
 Ex. Ideas:2, pretotypes:2, sources:2
 
 - 2 ideas per challenge.
@@ -44,21 +45,25 @@ With Ideator the same path is one pass.
 This example comes from a large financial company that wanted an evidence-based creativity experiment to help solve problems and train employees in ideation-, innovation- and startup culture.
 
 ### Data
-- Over six weeks, **25 people** spent **4 hours weekly** on the old-fashioned collaborative process.
-    - = **100 hours weekly**.  
-- At a typical rate of **\$40 an hour**, over a **six weeks** period (600 hours x \$40) 
-    - \= **\$24,000 weekly**.  
-- Yearly labor cost: Roughly (\$24,000 x 52 weeks) 
-    - \= **\$1,248,000 yearly**.  
+- Over six weeks, **25 people** spent **4 hours weekly** on the old-fashioned collaborative process (25 people * 4 hours) =
+    - **100 hours weekly**.  
+- At a typical rate of **\$40 an hour**, over a **six weeks** period (600 hours x \$40) =
+    - **\$24,000 weekly**.  
+- Yearly labor cost: Roughly (\$24,000 x 52 weeks) =
+    - **\$1,248,000 yearly**.  
 - On top of that comes the opportunity cost of **25 people not doing their normal work**.
 
 The \$40 rate is a typical figure rather than a measured one, and reviewing what Ideator produces still takes people's time.&nbsp;
 
-What changes is where the hours go: fewer people spending a fixed 4 hours each week on gathering and synthesizing, and a smaller group spending focused time on review and on running the tests. And the research and ideation only takes minutes, instead of weeks.
+## So what changes
+What changes is where the hours go: 
+- Fewer people spending a fixed 4 hours each week on gathering and synthesizing.
+- A smaller group spending focused time on review and on running the tests.
+- The research and ideation only takes minutes, instead of weeks.
 
 And there is a part that the payroll number does not show. Those hours were not free for the company, and they were not spent on nothing: they were hours that could have gone into work a customer would have paid for.
 
-## The real cost has two parts:
+## The real cost has two parts
 
 - One is the labor that was paid out. The other is the billable value that was given up, meaning what the customer would have paid for that same time. A customer normally pays more for an hour than the hour costs the company.  
 - The second part is usually the larger one. This document gives no number for it, since that depends on the company's own rates.

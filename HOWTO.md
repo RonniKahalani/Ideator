@@ -1,4 +1,4 @@
-# How to use it
+# How to use Ideator
 
 1. Open a chat with Ideator and give it a problem statement. A good one says who has the problem, what goes wrong, and what you have seen that shows it. Add relevant knobs in the same message (optional).  
 2. The ideator states the problem and knob values, before it starts researching.  
