@@ -5,11 +5,10 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 
 ## What Ideator does
 
-Takes a problem statement, research related challenges and generates testable ideas.
+- Takes a problem statement, research related challenges and generates testable ideas.
+- Cuts traditional product design research- and test time (costs), from weeks to minutes.
 
-Cuts traditional product design research- and test time (costs), from weeks to minutes.
-
-### Following knowned processes, methods and principles:
+### Design processes, methods and principles:
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing) design process (discover, define, develop, deliver).
 - [Pretotyping](https://www.pretotyping.org) creates small fake-it tests to prove whether people really want your product, service or solution, before anyone starts doing hard work, like building an expensive prototype.
 
@@ -21,7 +20,7 @@ Cuts traditional product design research- and test time (costs), from weeks to m
 * It never invents sources, quotes or numbers.  
 * Rates and ranks the challenges.
 
-### Ideas
+### Ideation
 * Generates ideas for the picked challenges, then scores and ranks the ideas.  
 * Mixes the best ideas into concepts and writes pretotype tests with a hypothesis, a success number, a deadline, and go or no-go rules.  
 
@@ -29,16 +28,9 @@ Cuts traditional product design research- and test time (costs), from weeks to m
 * Drafts the materials a person needs to run each recommended first test, such as fake-door copy, email or SMS scripts and survey questions.
 * It only prepares them; it never sends, publishes or posts anything.
 
-### Files
+### Output
 * Saves a report file per problem, two files if the format knob equals 'both' (Both a Markdown- and web page file).
 * Generates a board image (PNG).
-
-## Report file formats
-
-Here are some full sample reports in the different formats:
-
-* [Sample Markdown report](samples/community-library-visitors.md) (simple text)  
-* [Sample HTML report](samples/community-library-visitors.html) (styled web page)
 
 ## Visual board
 
@@ -48,15 +40,22 @@ A visual board image is generated at the end, which includes:
 
 ![](img/board.png)
 
+## Report file formats
+
+Here are some full sample reports in the different formats:
+
+* [Sample Markdown report](samples/community-library-visitors.md) (simple text)  
+* [Sample HTML report](samples/community-library-visitors.html) (styled web page)
+    - On GitHub, click the browser icon, in top right toolbar, to open the internal web browser.
 
 ## Further details
-- [Phases](PHASES.md)
-- [Knobs](KNOBS.md)
-- [Scoring](SCORING.md)
-- [How to](HOWTO.md)
-- [Comparison](COMPARE.md)
-- [Pretotyping](PRETOTYPE.md)
-- [Marketplace](MARKET.md)
+- [Process Phases](PHASES.md)
+- [Knobs / Adjustable parameters](KNOBS.md)
+- [Scoring & Rating](SCORING.md)
+- [How to use it](HOWTO.md)
+- [Human vs. AI Ideation](COMPARE.md)
+- [Pretotyping tests](PRETOTYPE.md)
+- [Marketplace Information](MARKET.md)
 
 ## A closing line
 
