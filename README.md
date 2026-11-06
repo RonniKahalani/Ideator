@@ -29,7 +29,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * It only prepares them; it never sends, publishes or posts anything.
 
 ### Output
-* Saves a report file per problem, two files if the format knob equals 'both' (Both a Markdown- and web page file).
+* Saves a report file per problem, two files if the **format** knob equals **both** (both a Markdown- and web page file).
 * Generates a board image (PNG).
 
 ## Visual board
@@ -50,12 +50,12 @@ Here are some full sample reports in the different formats:
 
 ## Further details
 - [Process Phases](PHASES.md)
-- [Knobs / Adjustable parameters](KNOBS.md)
+- [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI Ideation](COMPARE.md)
 - [Pretotyping tests](PRETOTYPE.md)
-- [Marketplace Information](MARKET.md)
+- [Marketplace](MARKET.md)
 
 ## A closing line
 

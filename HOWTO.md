@@ -23,7 +23,7 @@ The report is laid out in this order, both in the Markdown (.md) and in web page
 * Key results.  
 * Problem statement.  
 * List of knob values used for the current report.  
-* **Discover**&nbsp;  
+* **Discover**
   * A research summary with source links, then the challenges behind your problem as sticky notes.  
   * Each challenge cites the source or finding it comes from, or is marked "hypothesis, no evidence found".  
 * **Define**  
