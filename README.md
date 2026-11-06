@@ -1,6 +1,6 @@
 # Ideator Grok Bot 
 
-![](https://learningisliving.dk/wp-content/uploads/2026/11/grok-ideator-overview.jpg)
+![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator does
