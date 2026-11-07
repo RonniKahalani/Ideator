@@ -32,28 +32,21 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * Saves a report file per problem, two files if the **format** knob equals **both** (both a Markdown- and web page file).
 * Generates a board image (PNG).
 
-## Visual board
-
-A visual board image is generated at the end, which includes:
-
-* Sticky notes, selected challenges and ideas.
-
-![](img/board.png)
-
 ## Report file formats
 
 Here are some full sample reports in the different formats:
 
+* [Sample Visual Board](img/board.png) (image)
 * [Sample Markdown report](samples/community-library-visitors.md) (simple text)  
 * [Sample HTML report](samples/community-library-visitors.html) (styled web page)
-    - On GitHub, click the browser icon, in top right toolbar, to open the internal web browser.
+    - On GitHub, click the browser icon, in the top right toolbar, to open it in the internal web browser.
 
 ## Further details
 - [Process Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
 - [How to use it](HOWTO.md)
-- [Human vs. AI Ideation](COMPARE.md)
+- [Human vs. AI ideation](COMPARE.md)
 - [Pretotyping tests](PRETOTYPE.md)
 - [Marketplace](MARKET.md)
 
