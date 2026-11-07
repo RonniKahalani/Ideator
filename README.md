@@ -4,7 +4,13 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## Try Ideator now!
-- [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+If you're new to SpaceX Grok Bot
+- Pick your [X-Subscription](https://x.ai/pricing) plan.
+- Download and install [Grok Bot Desktop app](https://x.ai/bot).
+
+If the above tasks has been completed successfully
+- Get your own [Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+
 ## What Ideator does
 
 - Takes a problem statement, research related challenges and generates testable ideas.
