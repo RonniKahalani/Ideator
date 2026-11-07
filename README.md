@@ -20,19 +20,21 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * It never invents sources, quotes or numbers.  
 * Rates and ranks the challenges.
 
-### Conceptualizes generated ideas
+### Generates and Conceptualizes ideas
 * Generates ideas for the picked challenges, then scores and ranks the ideas.  
-* Mixes the best ideas into concepts and writes pretotype tests with a hypothesis, a success number, a deadline, and go or no-go rules.  
+* Mixes the best ideas into concepts.
 
 ### Pretotypes the user tests
+* Writes pretotype tests with a hypothesis, a success number, a deadline, and go or no-go rules.  
 * Drafts the materials a person needs to run each recommended first test, such as fake-door copy, email or SMS scripts and survey questions.
 * It only prepares them; it never sends, publishes or posts anything.
 
 ### Generates reports
-Click the links below to view a sample.
 * A [Visual Board](img/board.png) (image).
 * A report file per problem, as a [Markdown](samples/community-library-visitors.md) (default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) file.
 * If the **format** knob equals **both**, then both files will be created.
+
+Click the links above to view a sample.
 
 ## Further details
 - [Phases](PHASES.md)
