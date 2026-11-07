@@ -3,7 +3,7 @@
 ![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
-## Try Ideator
+## Try Ideator Now!
 - [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9), instantly and safely.
 ## What Ideator does
 
