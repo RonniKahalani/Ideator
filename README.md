@@ -32,14 +32,11 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * Saves a report file per problem, two files if the **format** knob equals **both** (both a Markdown- and web page file).
 * Generates a board image (PNG).
 
-## Report file formats
+## Report files
 
-Here are some full sample reports in the different formats:
-
-* [Sample Visual Board](img/board.png) (image)
-* [Sample Markdown report](samples/community-library-visitors.md) (simple text)  
-* [Sample HTML report](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (styled web page)
-    - On GitHub, click the browser icon, in the top right toolbar, to open it in the internal web browser.
+* [Visual Board Image](img/board.png) (image)
+* [Markdown Report](samples/community-library-visitors.md) (simple text)  
+* [Web Page Report](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (styled web page)
 
 ## Further details
 - [Process Phases](PHASES.md)
@@ -50,14 +47,8 @@ Here are some full sample reports in the different formats:
 - [Pretotyping tests](PRETOTYPE.md)
 - [Marketplace](MARKET.md)
 
-## A closing line
+## Closing line
 
 So in short, you receive research-backed findings with source links, scored and ranked challenges and ideas, concepts, testable pretotype plans with their materials, and a visual board of the whole run. Later, after you report test results, Ideator adds the go, no-go or iterate decision to the same file.
 
 Ideator will set up a check-in once you tell it a start date.
-
-## What Ideator does not do
-
-- It does not send, publish or post anything. It only prepares pretotype materials.  
-- It does not use personal facts about you in a run. Only the problem statement, your message and fresh research count.  
-- It does not delete anything.
