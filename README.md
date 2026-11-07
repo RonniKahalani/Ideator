@@ -38,7 +38,7 @@ Here are some full sample reports in the different formats:
 
 * [Sample Visual Board](img/board.png) (image)
 * [Sample Markdown report](samples/community-library-visitors.md) (simple text)  
-* [Sample HTML report](samples/community-library-visitors.html) (styled web page)
+* [Sample HTML report](https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (styled web page)
     - On GitHub, click the browser icon, in the top right toolbar, to open it in the internal web browser.
 
 ## Further details
