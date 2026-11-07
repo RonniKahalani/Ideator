@@ -6,7 +6,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 ## What Ideator does
 
 - Takes a problem statement, research related challenges and generates testable ideas.
-- Cuts traditional product design research- and test time (costs), from weeks to minutes.
+- Cuts traditional research- and test time (costs), from weeks to minutes.
 
 ### Follow well-knowned design processes
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing) design process (discover, define, develop, deliver).
@@ -39,6 +39,12 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 
 Click the links in the bullets above to view a sample.
 
+## Workload and processing time
+
+The workload, data and time needed for the realtime web research- and visual board image tasks consumes credits and takes time.
+
+An average problem statement report can take 10-20 minutes, or more, depending on the workload set in the [knob settings](KNOBS.md).
+
 ## Further details
 - [Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
@@ -47,12 +53,6 @@ Click the links in the bullets above to view a sample.
 - [Human vs. AI](COMPARE.md)
 - [Pretotyping](PRETOTYPE.md)
 - [Marketplace](MARKET.md)
-
-## Workload and processing time
-
-The workload and time needed for the realtime web research- and visual  board image tasks consumes the primary credits and wait time.
-
-Processing an average problem report can take 10-20 minutes, depending on the workload set in the [knob settings](KNOBS.md). 
 
 ## Closing line
 
@@ -65,3 +65,6 @@ So in short, you receive
 Later, after you report back on the pretotype test results, Ideator can
 - Add a go, no-go or iterate decision to the same file.
 - Set up a check-in once you tell it a start date.
+
+## Contact
+https://learningisliving.dk/about/contact
