@@ -55,14 +55,6 @@ The workload and time needed for the realtime web research- and visual  board im
 
 Processing an average problem report can take 10-20 minutes, depending on the workload set in the [knob settings](KNOBS.md). 
 
-Strive to reduce the workload by using the lowest possible knob values.
-
-Ex. Ideas:2, pretotypes:2, sources:2
-
-- 2 ideas per challenge.
-- 2 tests per idea.
-- 2 research sources to explore.
-
 ## Closing line
 
 So in short, you receive 
