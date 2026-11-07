@@ -3,8 +3,8 @@
 ![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
-## Try Ideator Grok Bot
-[Click here to import your own copy of Ideator Grok Bot, safely](https://forms.gle/EEa9tBV2Xqge5KNr9).
+## Try Ideator
+- [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9), instantly and safely.
 ## What Ideator does
 
 - Takes a problem statement, research related challenges and generates testable ideas.
