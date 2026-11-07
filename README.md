@@ -30,9 +30,10 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 
 ### Output
 * Generates a [Visual Board](img/board.png) (image).
-* Saves a report file per problem, two files if the **format** knob equals **both** (both a [Markdown](samples/community-library-visitors.md) and [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) file).
+* Saves a report file per problem, as a markdown or web page file.
+* If the **format** knob equals **both**, then both a [Markdown](samples/community-library-visitors.md) and [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) file are created.
 
-## Report files
+## Sample reports
 
 * [Visual Board](img/board.png) (image)
 * [Markdown Report](samples/community-library-visitors.md) (simple text)  

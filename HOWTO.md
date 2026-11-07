@@ -1,6 +1,7 @@
 # How to use Ideator
 
-1. Open a chat with Ideator and give it a problem statement. A good one says who has the problem, what goes wrong, and what you have seen that shows it. Add relevant knobs in the same message (optional).  
+1. Open a chat with Ideator and give it a problem statement. A good one says who has the problem, what goes wrong, and what you have seen that shows it.
+- Optional: Append preferred knobs in the same message.  
 2. The ideator states the problem and knob values, before it starts researching.  
 3. In ask mode, Ideator will present your options at each phase.  
 4. In auto mode, you just wait for the final result (without interruptions) and Ideator will take all the necessary decisions on its own.  
@@ -9,7 +10,7 @@
 
 ## Example problem statement
 
-Small community libraries see fewer and fewer visitors because young families think of them as quiet, old-fashioned places and do not know about the children's events, free tools and digital services they offer. (Knobs: **mode**:ask, **sources**:1,**ideas**:5, **format**:both)
+> Small community libraries see fewer and fewer visitors because young families think of them as quiet, old-fashioned places and do not know about the children's events, free tools and digital services they offer. (Knobs: **mode**:ask, **sources**:1,**ideas**:5, **format**:both)
 
 ## What to expect as a result
 

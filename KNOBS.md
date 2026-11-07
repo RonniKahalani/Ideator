@@ -12,9 +12,8 @@ All knobs are optional. The problem statement is the only required input. Knobs 
 | **format** | both | The output file type: `markdown` (a .md file), `page` (one self-contained page/HTML file with the same content and order) or `both` a markdown and page. |
 | **mode** | auto | The Generation type: auto or ask. |
 
-&nbsp;
-
-Append preferred knob values to the problem statement message.
+## Using knobs
+Append your preferred knob values to the problem statement message.
 Ending the message with the preferred knobs:
 -  **ideas**: 3
 - **sources**: 3
