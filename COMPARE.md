@@ -9,7 +9,7 @@ Using the [Google Design Sprint](https://learningisliving.dk/wp-content/uploads/
 - **Wednesday and Thursday** \-  Go to developing ideas and scoring them, usually in another workshop, with calendars to match and half the room losing energy.  
 - **Friday** \- Is for choosing what to test and writing up the pretotypes.
 
-## Waste of time
+## Time wasted
 
 Counting the waiting between meetings, the writing and the follow-up mails, one problem takes roughly a week of calendar time. The people are doing real thinking, but a large share of the time goes to scheduling, copying notes between tools and agreeing on a shared picture of the evidence.
 
@@ -40,11 +40,11 @@ With Ideator the same path is one pass.
 - Mixes concepts and drafts the pretotype tests and their materials.
 - Nobody has to collect notes, because every stage is saved as it is written. 
 
-## Example: The old-fashioned collaborative process vs. AI
+### Example: The old-fashioned collaborative process vs. AI
 
 This example comes from a large financial company that wanted an evidence-based creativity experiment to help solve problems and train employees in ideation-, innovation- and startup culture.
 
-### Data
+#### Data
 - Over six weeks, **25 people** spent **4 hours weekly** on the old-fashioned collaborative process (25 people * 4 hours) =
     - **100 hours weekly**.  
 - At a typical rate of **\$40 an hour**, over a **six weeks** period (600 hours x \$40) =
@@ -64,13 +64,12 @@ What changes is where the hours go:
 And there is a part that the payroll number does not show. Those hours were not free for the company, and they were not spent on nothing: they were hours that could have gone into work a customer would have paid for.
 
 ## The real cost has two parts
-
 - One is the labor that was paid out. The other is the billable value that was given up, meaning what the customer would have paid for that same time. A customer normally pays more for an hour than the hour costs the company.  
 - The second part is usually the larger one. This document gives no number for it, since that depends on the company's own rates.
 
 ## So the story is
- Not that people are replaced by a faster tool. 
+It's NOT that people are replaced by a faster tool. 
  
- It is that the week of collecting and synthesizing shrinks to one pass, with AI, and your time goes to the part only people can do: judging what the evidence means and testing it with real customers. 
+ It's that the week of collecting and synthesizing shrinks to one pass, with AI, and your time goes to the part only people can do: judging what the evidence means and testing it with real customers. 
  
  A team can still hold a workshop, but it can start from a researched, scored draft instead of a blank wall.

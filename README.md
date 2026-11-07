@@ -40,12 +40,12 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * [Web Page Report](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (styled web page)
 
 ## Further details
-- [Process Phases](PHASES.md)
+- [Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
 - [How to use it](HOWTO.md)
-- [Human vs. AI ideation](COMPARE.md)
-- [Pretotyping tests](PRETOTYPE.md)
+- [Human vs. AI](COMPARE.md)
+- [Pretotyping](PRETOTYPE.md)
 - [Marketplace](MARKET.md)
 
 ## Closing line

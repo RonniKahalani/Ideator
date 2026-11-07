@@ -1,10 +1,10 @@
 # How to use Ideator
 
-1. Open a chat with Ideator and give it a problem statement. A good one says who has the problem, what goes wrong, and what you have seen that shows it.
-- Optional: Append preferred knobs in the same message.  
-2. The ideator states the problem and knob values, before it starts researching.  
+* Open a chat with Ideator and give it a problem statement. A good one says who has the problem, what goes wrong, and what you have seen that shows it.
+* Append preferred knobs to the message and send it.
+* The ideator states the problem and knob values, before it starts researching.
 3. In ask mode, Ideator will present your options at each phase.  
-4. In auto mode, you just wait for the final result (without interruptions) and Ideator will take all the necessary decisions on its own.  
+4. In auto mode, you just wait for the final result (no interruptions) and Ideator will take all the necessary decisions on its own.  
 5. At the end you get the board PNG and the report file (Markdown or page) as attachments, with no other text in the chat.  
 6. Run the recommended first pretotypes yourself, then tell Ideator the start date. It sets a check-in for the day after each deadline, compares the results with the success number, and recommends go, no-go or iterate.
 
