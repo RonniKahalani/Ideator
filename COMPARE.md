@@ -17,19 +17,9 @@ The work does not disappear, though; the bottleneck moves.
 
 In the old way the slow part is producing the material. With Ideator the slow part is reviewing it: reading the sources, challenging the scores, deciding which challenges and concepts deserve a test, and running the pretotypes themselves with real people.
 
-In ask mode, Ideator stops at the natural decision points, after Define, after Deliver and at the test selection, so your judgment still steers the run. In auto mode it ignores those steps and you review the finished result instead, uninterrupted and “as soon as possible”.
+In ask mode, Ideator stops at the natural decision points, after Define, after Deliver and at the test selection, so your judgment still steers the run.
 
-## Workload and processing time
-
-The workload and time needed by the research- and image board tasks are influenced by the knob settings.
-
-Strive to reduce the workload by using the lowest possible knob values.
-
-Ex. Ideas:2, pretotypes:2, sources:2
-
-- 2 ideas per challenge.
-- 2 tests per idea.
-- 2 research sources to explore.
+In auto mode it ignores the ask steps and you can review the final report, uninterrupted and “as soon as possible”.
 
 ## What could the time saving mean in dollars?
 

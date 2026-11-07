@@ -1,4 +1,4 @@
-# Ideator Grok Bot 
+# Ideator
 
 ![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
@@ -30,6 +30,8 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * Writes pretotype tests with a hypothesis, a success number, a deadline, and go or no-go rules.  
 * Drafts the materials a person needs to run each recommended first test, such as fake-door copy, email or SMS scripts and survey questions.
 * It only prepares them; it never sends, publishes or posts anything.
+* You can limit the number of pretotype tests across concepts, via the **pretotypes** [knob](KNOBS.md).
+
 
 ### Generate reports
 * A [Visual Board](img/board.png) (image).
@@ -47,8 +49,28 @@ Click the links above to view a sample.
 - [Pretotyping](PRETOTYPE.md)
 - [Marketplace](MARKET.md)
 
+## Workload and processing time
+
+The workload and time needed for the realtime web research- and visual  board image tasks consumes the primary credits and wait time.
+
+Processing an average problem report can take 10-20 minutes, depending on the workload set in the [knob settings](KNOBS.md). 
+
+Strive to reduce the workload by using the lowest possible knob values.
+
+Ex. Ideas:2, pretotypes:2, sources:2
+
+- 2 ideas per challenge.
+- 2 tests per idea.
+- 2 research sources to explore.
+
 ## Closing line
 
-So in short, you receive research-backed findings with source links, scored and ranked challenges and ideas, concepts, testable pretotype plans with their materials, and a visual board of the whole run. Later, after you report test results, Ideator adds the go, no-go or iterate decision to the same file.
+So in short, you receive 
+- Research-backed findings with source links.
+- Scored and ranked challenges and ideas.
+- Concepts with testable pretotype plans and materials.
+- Visual board and report of the whole run.
 
-Ideator will set up a check-in once you tell it a start date.
+Later, after you report on the pretotype test results, Ideator can
+- Add a go, no-go or iterate decision to the same file.
+- Set up a check-in once you tell it a start date.
