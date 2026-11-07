@@ -12,21 +12,17 @@ All knobs are optional. The problem statement is the only required input. Knobs 
 | **format** | markdown | The report format: - `markdown` (.md file), - `page` (web page) - `both` a markdown and web page. |
  | **mode** | auto | The research modes: `auto` or `ask`. |
 
-## Using knobs
+## Changing knob values
 Strive to reduce the workload by using the lowest possible knob values.
 
-Ex. Ideas:2, pretotypes:2, sources:2
-
+Let's lower these knobs to
 - 2 ideas per challenge.
 - 2 pretotype tests split across concepts.
 - 2 research sources to explore.
 
-### Appending knob values
-Append your preferred knob values to the problem statement message.
-Ending the message with the preferred knobs:
--  **ideas**: 2
-- **sources**: 2
-- **country**: Denmark
-- **language**: English
-- **format**: page
-- **mode**: ask
+Start a chat by stating the knobs to set before the next problem statement:
+>set knobs (**ideas**: 2, **sources**: 2, **pretotypes**: 2)
+
+Then a problem statement to test the new knob settings:
+
+>Small community libraries see fewer and fewer visitors because young families think of them as quiet, old-fashioned places and do not know about the children's events, free tools and digital services they offer.

@@ -32,13 +32,12 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * It only prepares them; it never sends, publishes or posts anything.
 * You can limit the number of pretotype tests across concepts, via the **pretotypes** [knob](KNOBS.md).
 
-
 ### Generate reports
 * A [Visual Board](img/board.png) (image).
-* A report file per problem, as a [Markdown](samples/community-library-visitors.md) (default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) file.
-* If the **format** knob equals **both**, then both files will be created.
+* A report file per problem, as [Markdown](samples/community-library-visitors.md) (default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html).
+* If the **format** knob equals **both**, then both report formats will be created.
 
-Click the links above to view a sample.
+Click the links in the bullets above to view a sample.
 
 ## Further details
 - [Phases](PHASES.md)
@@ -63,6 +62,6 @@ So in short, you receive
 - Concepts with testable pretotype plans and materials.
 - Visual board and report of the whole run.
 
-Later, after you report on the pretotype test results, Ideator can
+Later, after you report back on the pretotype test results, Ideator can
 - Add a go, no-go or iterate decision to the same file.
 - Set up a check-in once you tell it a start date.
