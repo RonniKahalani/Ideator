@@ -10,7 +10,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 
 ### Design processes, methods and principles:
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing) design process (discover, define, develop, deliver).
-- [Pretotyping](https://www.pretotyping.org) creates small fake-it tests to prove whether people really want your product, service or solution, before anyone starts doing hard work, like building an expensive prototype.
+- [Pretotyping](PRETOTYPE.md) creates small fake-it tests to prove whether people really want your product, service or solution, before anyone starts doing hard work, like building an expensive prototype.
 
 ### Research
 * Research the web for real evidence about your problem.
