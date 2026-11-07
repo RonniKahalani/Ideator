@@ -8,7 +8,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 - Takes a problem statement, research related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
-### Follow well-knowned design processes
+### Follows well-knowned design processes
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing) design process (discover, define, develop, deliver).
 - [Pretotyping](PRETOTYPE.md) creates small fake-it tests to prove whether people really want your product, service or solution, before anyone starts doing hard work, like building an expensive prototype.
 
