@@ -34,7 +34,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 
 ## Report files
 
-* [Visual Board Image](img/board.png) (image)
+* [Visual Board](img/board.png) (image)
 * [Markdown Report](samples/community-library-visitors.md) (simple text)  
 * [Web Page Report](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (styled web page)
 
