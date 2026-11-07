@@ -8,7 +8,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 - Takes a problem statement, research related challenges and generates testable ideas.
 - Cuts traditional product design research- and test time (costs), from weeks to minutes.
 
-### Design processes, methods and principles:
+### Design processes
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing) design process (discover, define, develop, deliver).
 - [Pretotyping](PRETOTYPE.md) creates small fake-it tests to prove whether people really want your product, service or solution, before anyone starts doing hard work, like building an expensive prototype.
 
@@ -29,8 +29,8 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 * It only prepares them; it never sends, publishes or posts anything.
 
 ### Output
-* Saves a report file per problem, two files if the **format** knob equals **both** (both a Markdown- and web page file).
-* Generates a board image (PNG).
+* Generates a [Visual Board](img/board.png) (image).
+* Saves a report file per problem, two files if the **format** knob equals **both** (both a [Markdown](samples/community-library-visitors.md) and [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) file).
 
 ## Report files
 
