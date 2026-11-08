@@ -3,7 +3,10 @@
 ![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
-## Get Ideator Grok Bot
+## What Ideator is
+An AI-Agent (Grok Bot) specialized in transforming problems into testable ideas, by following well-knowned design processes and principles.
+
+### Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
 
 - Already using Grok Bots? [Get Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
