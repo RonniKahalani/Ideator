@@ -54,6 +54,7 @@ The workload, data and time needed for the realtime web research- and visual boa
 An average problem statement report can take 10-20 minutes, or more, depending on the workload set in the [knob settings](KNOBS.md).
 
 ## Further details
+- [Grok Bots](GROKBOT.md)
 - [Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
