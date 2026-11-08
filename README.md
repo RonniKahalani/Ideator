@@ -4,7 +4,7 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-An AI-Agent (Grok Bot) that turns complex problems into testable ideas, using well-knowned ideation-, design-, test processes, patterns & principles.
+An AI-Agent (Grok Bot) that turns complex problems into testable ideas, using well-known ideation-, design-, test processes, patterns & principles.
 
 An automated hybrid between a creative director and coach, on a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas, drops a full report and visual board, ready to facilitate test plans, well before lunch.
 
@@ -37,7 +37,7 @@ Ideator takes care all this and can reduce waste (time & money) with automated r
 - Takes a problem statement, research related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
-### Follows well-knowned design processes
+### Follows well-known design processes
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
     - Helps tackling complex problems by prioritizing empathy for end-users, collaborative ideation, rapid prototyping, and continuous testing to generate innovative solutions.
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing)
