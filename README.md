@@ -16,11 +16,11 @@ When a problem task completes, a report is created, consisting of:
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
 ## A Business case
-Imagine, you own a small startup.
+Imagine, you own a small startup and you wants to solve real problems.
 
-You wants to solve a real problem, research the challenges behind it and come up with ideas and concepts to explore new business opportunities for a specific market.
+Research the challenges behind the problem, create ideas and concepts to explore for new business opportunities in specific markets.
 
-You'd need a team of people for research, design, finance, production, HR.... and a lot of time and money to deliver a proper and productive team to solve your problems.
+You'd need a team of people for research, design, finance, production, HR, facilitator.... and a lot of time and money to deliver a proper and productive team to solve your problems.
 
 Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (YOur DAta).
 
