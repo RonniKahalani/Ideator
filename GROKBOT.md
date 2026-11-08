@@ -5,6 +5,8 @@ Each bot keeps memory across conversations, can connect to your email, calendar,
 
 They’re ideal for recurring work or anything that needs to persist and act in your digital world.
 
+Your Grok Bots are available on phone, desktop and Tesla devices.
+
 ## Get them Grok Bots running
 Here is what to do, to get them Grok Bots running, in minutes:
 - **You need a Premium X-Subscription plan, or higher, to use Grok Bots.**
