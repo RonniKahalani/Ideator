@@ -4,7 +4,7 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-It's an AI-Agent (Grok Bot) specialized in transforming problems into testable ideas, using well-knowned ideation-, design- and test processes / principles.
+An AI-Agent (Grok Bot) that turns problems into testable ideas, using well-knowned ideation-, design-, test processes, patterns & principles.
 
 When solving a problem, it can be in one of two modes:
 - `ask` -  You're asked to make decisions and selections at each phase.
@@ -45,11 +45,12 @@ When solving a problem, it can be in one of two modes:
 * You can limit the number of pretotype tests across concepts, via the **pretotypes** [knob](KNOBS.md).
 
 ### Generate reports
+Click the links below to view the different samples.
 * A [Visual Board](img/board.png) (image).
 * A report file per problem, as [Markdown](samples/community-library-visitors.md) (default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html).
 * If the **format** knob equals **both**, then both report formats will be created.
 
-Click the links in the bullets above to view a sample.
+
 
 ## Workload and processing time
 
