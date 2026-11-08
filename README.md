@@ -10,13 +10,14 @@ When solving a problem, it can be in one of two modes:
 - `ask` -  You're asked to make decisions and selections at each phase.
 - `auto` - No interruptions, it does all the decisionmaking by itself.
 
+When a problem task completes, a report is created, consisting of:
+- [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
 
 - Already using Grok Bots? [Get Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## What Ideator does
-
 - Takes a problem statement, research related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
@@ -45,12 +46,10 @@ When solving a problem, it can be in one of two modes:
 * You can limit the number of pretotype tests across concepts, via the **pretotypes** [knob](KNOBS.md).
 
 ### Generate reports
-Click the links below to view the different samples.
-* A [Visual Board](img/board.png) (image).
-* A report file per problem, as [Markdown](samples/community-library-visitors.md) (default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html).
-* If the **format** knob equals **both**, then both report formats will be created.
-
-
+When a problem task completes a report is made with 3 possible deliveries
+* [Visual Board](img/board.png) (.png).
+* [Markdown](samples/community-library-visitors.md) (.md - default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (.html) report.
+* If the **format** [knob](KNOBS.md) equals **both**, then both report formats will be created.
 
 ## Workload and processing time
 
