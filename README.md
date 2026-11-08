@@ -4,11 +4,10 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## Try Ideator now!
-If you're new to SpaceX Grok Bot
-- Pick your [X-Subscription](https://x.ai/pricing) plan and install [Grok Bot Desktop app](https://x.ai/bot).
-- **You need a Premium X-Subscription plan, or higher, to use Grok Bots.**
+If you're new to SpaceX Grok Bots
+- [Prepare for your Grok Bot journey](GROKBOT.md).
 
-If the above tasks has been completed successfully
+If the above preparation tasks has been completed successfully
 - [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## What Ideator does
