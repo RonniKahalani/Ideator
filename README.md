@@ -88,6 +88,8 @@ An average problem statement report can take 10-20 minutes, or more, depending o
 - [Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
+- [State Machine Diagram](STATEMACHINE.md)
+- [Sequence Diagram](SEQUENCE.md)
 - [Dependencies](DEPENDENCIES.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI](COMPARE.md)
@@ -97,7 +99,7 @@ An average problem statement report can take 10-20 minutes, or more, depending o
 
 ## Closing line
 
-In short, you receive 
+In short, you get 
 - Research-backed findings with source links.
 - Scored and ranked challenges and ideas.
 - Concepts with testable pretotype plans and materials.
