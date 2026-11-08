@@ -86,10 +86,12 @@ An average problem statement report can take 10-20 minutes, or more, depending o
 - [Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
+- [Dependencies](DEPENDENCIES.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI](COMPARE.md)
 - [Pretotyping](PRETOTYPE.md)
 - [Marketplace](MARKET.md)
+- [Future](FUTURE.md)
 
 ## Closing line
 
