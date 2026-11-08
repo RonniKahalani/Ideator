@@ -1,4 +1,4 @@
-@startuml
+@startuml ideator-state-machine
 top to bottom direction
 skinparam dpi 150
 skinparam defaultFontName SansSerif

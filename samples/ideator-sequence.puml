@@ -1,4 +1,4 @@
-@startuml
+@startuml ideator-sequence
 !pragma layout smetana
 skinparam dpi 150
 skinparam defaultFontName SansSerif
