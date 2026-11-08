@@ -4,7 +4,7 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-An AI-Agent (Grok Bot) that turns problems into testable ideas, using well-knowned ideation-, design-, test processes, patterns & principles.
+An AI-Agent (Grok Bot) that turns complex problems into testable ideas, using well-knowned ideation-, design-, test processes, patterns & principles.
 
 When solving a problem, it can be in one of two modes:
 - `ask` -  You're asked to make decisions and selections at each phase.
@@ -12,6 +12,20 @@ When solving a problem, it can be in one of two modes:
 
 When a problem task completes, a report is created, consisting of:
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
+
+## A Business case
+Imagine, you own a small startup.
+
+You wants to solve a real problem, research the challenges behind it and come up with ideas and concepts to explore new business opportunities for a specific market.
+
+You'd need a team of people for research, design, finance, production, HR.... and a lot of time and money to deliver a proper and productive team to solve your problem.
+
+Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (YOur DAta).
+
+You continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
+
+Ideator takes care all this and can reduce waste (time & money) with automated research, ideation and decisionmaking and project time/effort/cost can drop from weeks to minutes.
+
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
 
