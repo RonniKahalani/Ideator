@@ -13,9 +13,7 @@ Here is what to do, to get them Grok Bots running, in minutes:
 
 That's it... 
 
-Congratulations and welcome to the Grok Bot Whisperer Club.
-
-Get ready to automate everything and everyone around you.
+Congratulations and welcome to the [Grok Bot Whisperer Club](https://discord.gg/6CNgtzuPPH). Get ready to automate everything and everyone around you.
 
 ## Resources
 - Ideator [documentation](https://github.com/RonniKahalani/Ideator/blob/main/README.md) and [discussion](https://github.com/RonniKahalani/Ideator/discussions).
