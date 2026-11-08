@@ -1,0 +1,123 @@
+@startuml
+top to bottom direction
+skinparam dpi 150
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 13
+skinparam backgroundColor #FFFFFF
+skinparam state {
+ BackgroundColor #F0F6FC
+ BorderColor #356282
+ ArrowColor #356282
+}
+hide empty description
+title Ideator | problem-solving lifecycle\nDesigned UML state machine — current saved setup; runtime behavior not verified
+
+[*] --> Ready
+state "Ready for problem" as Ready
+Ready : No problem: introduce workflow and ask
+Ready --> Run : problem + optional knobs
+
+state "Active run — persist each phase and decision" as Run {
+ state "1. Discover / 2. Define\nProblem diamond" as Problem {
+  [*] -down-> Research
+  state "Discover: diverge" as Research
+  Research : Fresh market-focused research
+  Research : Consult sources-knob distinct sources
+  Research : Challenges + sticky notes cite evidence
+  Research : Label unsourced claims as hypotheses
+  Research -down-> RankChallenges
+  state "Define: converge" as RankChallenges
+  RankChallenges : Score = possible + exciting (1–5 each)
+  RankChallenges : Rank; propose at most 5 challenges
+  RankChallenges -down-> ChallengeGate
+  state ChallengeGate <<choice>>
+  ChallengeGate -down-> WaitChallenges : [ask]
+  state "Wait for challenge choices" as WaitChallenges #FFF2CC
+  WaitChallenges -down-> [*] : user selects / steers
+  ChallengeGate -down-> AutoChallenges : [auto]
+  state "Auto-select top 5" as AutoChallenges
+  AutoChallenges : Ties: exciting, then possible
+  AutoChallenges : Record selections and reasons
+  AutoChallenges -down-> [*]
+ }
+ state "3. Develop / 4. Deliver\nSolution diamond" as Solution {
+  [*] -down-> Generate
+  state "Develop: diverge" as Generate
+  Generate : Ideas-knob ideas per picked challenge
+  Generate : Fit market culture, habits and rules
+  Generate -down-> RankIdeas
+  state "Deliver: converge" as RankIdeas
+  RankIdeas : Cheap + simple; evidence and uniqueness weights
+  RankIdeas : Rank ideas; select at most 5; explain picks
+  RankIdeas : Combine ideas into concepts
+  RankIdeas -down-> ConceptGate
+  state ConceptGate <<choice>>
+  ConceptGate -down-> WaitConcepts : [ask]
+  state "Wait for concept choices" as WaitConcepts #FFF2CC
+  WaitConcepts -down-> [*] : user approves concepts
+  ConceptGate -down-> AutoConcepts : [auto]
+  state "Auto-select top 2 concepts" as AutoConcepts
+  AutoConcepts : Rank by mean constituent weighted score
+  AutoConcepts : Ties: mean evidence, then more ideas
+  AutoConcepts -down-> [*]
+ }
+ state "5. Pretotypes / output\nPrepare tests, not tested ideas" as Testing {
+  [*] -down-> Design
+  state "Design tests + materials" as Design
+  Design : Pretotypes-knob total; best concept first
+  Design : Hypothesis + success number + deadline
+  Design : Explicit go / no-go; first test per concept
+  Design : Draft materials only; people run tests
+  Design -down-> TestGate
+  state TestGate <<choice>>
+  TestGate -down-> WaitTests : [ask]
+  state "Wait for test selection / start" as WaitTests #FFF2CC
+  WaitTests -down-> PrepareDelivery : user answers
+  TestGate -down-> PrepareDelivery : [auto] / select recommended first tests
+  state "Prepare final outputs" as PrepareDelivery
+  PrepareDelivery : Start known: schedule deadline + 1 day
+  PrepareDelivery : Else defer check-in until start supplied
+  PrepareDelivery : Reports + key results + PNG board
+  PrepareDelivery : Shared title across all outputs
+  PrepareDelivery -down-> [*] : deliver PNG + requested report(s)
+ }
+ [*] --> Problem
+ Problem -right-> Solution : challenges chosen
+ Solution -right-> Testing : concepts chosen
+ Testing --> [*]
+}
+
+Run --> Delivered : run complete
+state "Delivered / awaiting real-world evidence" as Delivered
+Delivered : Humans execute selected pretotypes
+Delivered : If start missing, wait for start date
+Delivered --> Delivered : start provided / schedule deadline + 1 day
+Delivered --> Results : scheduled check-in fires / ask for results
+state "Await test results" as Results #FFF2CC
+Results --> Evaluate : observed results received
+state "Evaluate test outcome" as Evaluate
+Evaluate : Compare observations with success number
+Evaluate : Recommend go, no-go, or iterate
+Evaluate : Record in all reports; refresh results and board
+Evaluate : Delete spent check-in
+Evaluate --> Delivered : outcome recorded; other tests may remain
+
+Run --> Cancelled : user cancels
+Delivered --> Cancelled : user cancels run
+Results --> Cancelled : user cancels run
+state "Cancelled" as Cancelled #FCE4D6
+Cancelled : Stop work; mark reports CANCELLED
+Cancelled : Delete run check-ins
+Cancelled --> [*]
+
+legend bottom
+<b>Scoring</b> Weighted idea score = (cheap + simple) × evidence × uniqueness, rounded to 1 decimal.
+Cheap / simple: 1–5. Evidence: strong 1.3, some 1.15, none 1.0; cited IDs required.
+Uniqueness: non-obvious 1.2, somewhat 1.1, obvious 1.0.
+Idea ties: evidence > uniqueness > simple > cheap; then ID order marked unresolved / arbitrary.
+<b>Controls</b> Defaults: ideas 5, pretotypes 4, sources 5, country US fallback, language message / English,
+format markdown (or page / both), mode auto. Only explicitly chosen mode persists.
+Yellow states wait for the user. Auto never pauses during generation. Test execution is external.
+Iteration is a recommendation; the setup defines no automatic new ideation / retesting transition.
+endlegend
+@enduml
