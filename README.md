@@ -22,8 +22,16 @@ When a problem task completes, a report is created, consisting of:
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
 ### Follows well-knowned design processes
-- [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing) design process (discover, define, develop, deliver).
-- [Pretotyping](PRETOTYPE.md) creates small fake-it tests to prove whether people really want your product, service or solution, before anyone starts doing hard work, like building an expensive prototype.
+- [Design Thinking](https://grokipedia.com/page/Design_thinking)
+    - Helps tackling complex problems by prioritizing empathy for end-users, collaborative ideation, rapid prototyping, and continuous testing to generate innovative solutions.
+- [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing)
+    - A visual framework representing the design and innovation process, with its 4 phases (discover, define, develop, deliver).
+- [Google Design Sprint](https://grokipedia.com/page/Design_sprint)
+    - A five-day process for answering critical business questions through design, prototyping, and testing ideas with customers.
+- [Pretotyping](PRETOTYPE.md)
+    - Small fake-it tests to prove whether people really want your idea, before anyone starts building an expensive prototype.
+- [The Startup Way](https://www.thestartupway.com)
+    - Build - Measure - Learn, YODA, MVP testing, pivot or persevere.
 
 ### Research problems and related challenges
 * Research the web for real evidence about your problem.
