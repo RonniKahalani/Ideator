@@ -62,7 +62,7 @@ An average problem statement report can take 10-20 minutes, or more, depending o
 
 ## Closing line
 
-So in short, you receive 
+In short, you receive 
 - Research-backed findings with source links.
 - Scored and ranked challenges and ideas.
 - Concepts with testable pretotype plans and materials.
@@ -73,4 +73,6 @@ Later, after you report back on the pretotype test results, Ideator can
 - Set up a check-in once you tell it a start date.
 
 ## Contact
-https://learningisliving.dk/about/contact
+- [Discussion](https://github.com/RonniKahalani/Ideator/discussions).
+- Discord Invite: [Grok Bot Ideation](https://discord.gg/6CNgtzuPPH).
+- [Learning Is Living](https://learningisliving.dk/about/contact).
