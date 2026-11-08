@@ -26,7 +26,7 @@ Ideas and opinions (assumptions) don't guarantee anything, you need to tests you
 
 You continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
 
-Ideator takes care all this and can reduce waste (time & money) with automated research, ideation and decisionmaking and project time/effort/cost can drop from weeks to minutes.
+Ideator handles all of this and can reduce waste (time & money) with automated research, ideation, decisionmaking and project time/effort/cost can drop from weeks to minutes.
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
@@ -37,7 +37,7 @@ Ideator takes care all this and can reduce waste (time & money) with automated r
 - Takes a problem statement, research related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
-### Follows well-known design processes
+### Follows well-known design processes and principles
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
     - Helps tackling complex problems by prioritizing empathy for end-users, collaborative ideation, rapid prototyping, and continuous testing to generate innovative solutions.
 - [Double Diamond](https://docs.google.com/presentation/d/1YpWFWuR4q4RbrE0vdfk1FYzsovVbZlOvFg2C3JraDE0/edit?usp=sharing)
