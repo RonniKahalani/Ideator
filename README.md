@@ -3,12 +3,10 @@
 ![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
-## Try Ideator now!
-Are Grok Bots new to you?
-- [Become a Grok Bot wishperer in minutes](GROKBOT.md).
+## Try Ideator Grok Bot
+Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md), in minutes.
 
-Are you already a Grok Bot whisperer?
-- [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+Already using Grok Bots? [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## What Ideator does
 

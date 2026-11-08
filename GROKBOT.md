@@ -5,7 +5,7 @@ Each bot keeps memory across conversations, can connect to your email, calendar,
 
 They’re ideal for recurring work or anything that needs to persist and act in your digital world.
 
-## Are Grok Bots new to you?
+## Get them Grok Bots running
 Here is what to do, to get them Grok Bots running, in minutes:
 - **You need a Premium X-Subscription plan, or higher, to use Grok Bots.**
 - Pick your [X-Subscription](https://x.ai/pricing) plan.
