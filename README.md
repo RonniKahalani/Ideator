@@ -20,13 +20,15 @@ Imagine, you own a small startup.
 
 You wants to solve a real problem, research the challenges behind it and come up with ideas and concepts to explore new business opportunities for a specific market.
 
-You'd need a team of people for research, design, finance, production, HR.... and a lot of time and money to deliver a proper and productive team to solve your problem.
+You'd need a team of people for research, design, finance, production, HR.... and a lot of time and money to deliver a proper and productive team to solve your problems.
 
 Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (YOur DAta).
 
-You continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
+You must continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
 
-Ideator handles all of this and can reduce waste (time & money) with automated research, ideation, decisionmaking and project time/effort/cost can drop from weeks to minutes.
+Ideator reduces waste (time & money) with automated research, ideation, decisionmaking and project time/effort/cost drop from weeks to minutes.
+
+Would you like Ideator working for you 24/7, solving all you problems?
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
