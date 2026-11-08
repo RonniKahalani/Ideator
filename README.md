@@ -4,10 +4,10 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## Try Ideator now!
-If you're new to SpaceX Grok Bots
-- [Prepare for your Grok Bot journey](GROKBOT.md).
+Are Grok Bots new to you?
+- [Become a Grok Bot wishperer in minutes](GROKBOT.md).
 
-If the above preparation tasks has been completed successfully
+Are you already a Grok Bot whisperer?
 - [Get your own Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## What Ideator does
