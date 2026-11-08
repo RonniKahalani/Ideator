@@ -1,11 +1,11 @@
 # Grok Bots
-**Grok Bots** are long-lived AI agents that live on cloud computers.  
+**Grok Bots** are long-lived AI agents that live on a cloud computer.  
 
 Each bot keeps memory across conversations, can connect to your email, calendar, files, repos, and tools, and can run scheduled or event-triggered routines even when you’re away.  
 
 They’re ideal for recurring work or anything that needs to persist and act in your digital world.
 
-## If you're new to SpaceX Grok Bot
+## If you're new to SpaceX Grok Bots
 - **You need a Premium X-Subscription plan, or higher, to use Grok Bots.**
 - Pick your [X-Subscription](https://x.ai/pricing) plan and install [Grok Bot Desktop app](https://x.ai/bot).
 
