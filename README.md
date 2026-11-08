@@ -4,7 +4,11 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-An AI-Agent (Grok Bot) specialized in transforming problems into testable ideas, by following well-knowned design processes and principles.
+It's an AI-Agent (Grok Bot) specialized in transforming problems into testable ideas, using well-knowned design processes and principles.
+
+It works in one of two modes,
+- `ask` -  You're asked to make decisions and selections through each phase.
+- `auto` - No interruptions, does all the decisionmaking itself. 
 
 ### Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
