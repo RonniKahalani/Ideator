@@ -11,7 +11,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 - `auto` - No interruptions, it does all the decisionmaking by itself.
 
 ### The problem solving proccess explained visually
-These [UML](https://www.omg.org/uml) diagrams explains exactly how the process works
+These diagrams explains exactly how the process works
 - [Sequence](SEQUENCE.md) | [State Machine](STATEMACHINE.md)
 
 ### When problem solving tasks are completed
