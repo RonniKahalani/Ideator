@@ -6,18 +6,21 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 ## What Ideator is
 An AI-Agent (Grok Bot) acting like an automated hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas, drops an ideation report and visual board, ready and eager to facilitate test plans, well before lunch.
 
-A problem solving task can be in one of two modes:
+### A problem solving task runs in one of two modes
 - `ask` -  User is asked for decisions and selections in each phase.
 - `auto` - No interruptions, it does all the decisionmaking by itself.
 
-The problem solving proccess explained in [UML](https://www.omg.org/uml) diagrams
+### The problem solving proccess explained via diagrams
+These [UML](https://www.omg.org/uml) diagrams explains exactly how it works
 - [State Machine](STATEMACHINE.md)
 - [Sequence](SEQUENCE.md)
 
-When problem solving tasks are completed, a report is created, consisting of:
+### When problem solving tasks are completed
+A final ideation report is created, consisting of:
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
-Want to read on (recommended) or [get your own Ideator bot](#get-your-own-ideator-bot), right now?
+### Want to read on? (recommended)
+Or [get your own Ideator bot](#get-your-own-ideator-bot), right now?
 
 ## What Ideator does
 - Takes a problem statement, research related challenges and generates testable ideas.
