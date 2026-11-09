@@ -11,8 +11,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 - `auto` - No interruptions, does all decisionmaking by itself.
 
 ### Problem solving proccess explained visually
-These diagrams explains exactly how the process works
-- [Use cases](USECASE.md) | [Sequence](SEQUENCE.md) | [State Machine](STATEMACHINE.md)
+These [UML diagrams](UML.md) explains exactly how the process works.
 
 ### Problem solving tasks ends with a report
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
@@ -70,19 +69,18 @@ An average problem statement report can take 10-20 minutes, or more, depending o
 - Already using Grok Bots? [Get Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## Further details
-- [Grok Bots](GROKBOT.md)
 - [Business Case](BUSINESSCASE.md)
-- [Phases](PHASES.md)
-- [Knobs / Parameters](KNOBS.md)
-- [Scoring & Rating](SCORING.md)
-- [State Machine Diagram](STATEMACHINE.md)
-- [Sequence Diagram](SEQUENCE.md)
 - [Dependencies](DEPENDENCIES.md)
+- [Future](FUTURE.md)
+- [Grok Bots](GROKBOT.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI](COMPARE.md)
-- [Pretotyping](PRETOTYPE.md)
+- [Knobs / Parameters](KNOBS.md)
 - [Marketplace](MARKET.md)
-- [Future](FUTURE.md)
+- [Phases](PHASES.md)
+- [Pretotyping](PRETOTYPE.md)
+- [Scoring & Rating](SCORING.md)
+- [UML](UML.md)
 
 ## Closing line
 
