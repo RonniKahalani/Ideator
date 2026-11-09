@@ -16,5 +16,5 @@ These are the 5 ideation phases it goes through:
   - Weighted score \= (cheap \+ simple) x evidence x uniqueness.
   - The top 5 ideas are picked, with a fixed tie-break: evidence, then uniqueness, then simple, then cheap.
   - Ideas are mixed into concepts. In ask mode Ideator pauses again for you to pick concepts.  
-## Pretotypes
+## Pretotype
   - Tests are written for the picked concepts, with one recommended first test per concept and ready-to-use materials for each.
