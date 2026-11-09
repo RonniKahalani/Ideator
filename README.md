@@ -15,6 +15,10 @@ When solving a problem, it can be in one of two modes:
 When a problem task completes, a report is created, consisting of:
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
+Explaining the problem solving proccess in [UML](https://www.omg.org/uml) diagrams
+- [State Machine](STATEMACHINE.md)
+- [Sequence](SEQUENCE.md)
+
 ## A Business case
 Imagine, you own a small startup and you wants to solve real problems.
 
