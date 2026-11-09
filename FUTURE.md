@@ -3,9 +3,7 @@
 ## Change requests
 
 ### Performace
-Simplify report task, by replacing the expensive visual board PNG image processing, .md and .html formatted files, with one simple interactive Google/Excel Sheets Charts or alike, offering
-- Data integration.
-- Chart and graph rendering.
+- Simplify report task
 
 ### Integrations, Connectors & Plugins
 Explore which integrations, connectors or plugins might be usefull in the future, like:
@@ -13,6 +11,6 @@ Explore which integrations, connectors or plugins might be usefull in the future
 - Project-, Process- & People (Linear, Jira, Google Sheets)
 - ...
 
-### Teambuilding
-- Find potential teamembers / freelancers.
+### Teambuilding feature
+- Find potential teamembers / freelancers to help solve a problem.
 - Onboarding new members.
