@@ -1,0 +1,212 @@
+@startuml ideator-usecase-header
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam card {
+  BackgroundColor #F7FBFF
+  BorderColor #356282
+  FontSize 14
+}
+title Ideator | problem-solving and decision-making use cases\nDesigned workflow — current saved setup; runtime behavior not verified
+card "**Actors (same User drawn per band to keep links short)**\n• User — submit / cancel / ask-mode pauses / report test results\n• Fresh web evidence / sources — Discover research\n• One-time check-in scheduler — deadline+1 result requests" as actors
+@enduml
+
+@startuml ideator-usecase-entry
+left to right direction
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam Padding 12
+skinparam nodesep 55
+skinparam ranksep 50
+skinparam usecase {
+  BackgroundColor #F0F6FC
+  BorderColor #356282
+}
+skinparam note {
+  BackgroundColor #FFF8DC
+  BorderColor #C9A227
+}
+actor "User" as User
+rectangle "Entry" {
+  usecase "Submit problem\n(+ optional knobs)" as UC_Submit
+  usecase "Run Double Diamond\nideation" as UC_Run
+  usecase "Cancel run" as UC_Cancel
+  UC_Submit -[hidden]right-> UC_Run
+  UC_Run -[hidden]right-> UC_Cancel
+  UC_Submit ..> UC_Run : <<include>>
+}
+User --> UC_Submit
+User --> UC_Cancel
+note top of UC_Submit
+Only problem required. Knobs: ideas, pretotypes, sources,
+country, language, format, mode. Defaults: 5/4/5/US/
+English/markdown/auto. Only mode persists.
+end note
+note top of UC_Run
+Includes in order: Problem diamond → Solution diamond →
+Pretotypes and delivery. Auto selects without ask pauses.
+end note
+note top of UC_Cancel
+Stop; mark CANCELLED;\ndelete run check-ins.
+end note
+@enduml
+
+@startuml ideator-usecase-problem
+left to right direction
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam Padding 14
+skinparam nodesep 60
+skinparam ranksep 55
+skinparam usecase {
+  BackgroundColor #F0F6FC
+  BorderColor #356282
+}
+actor "Fresh web\nevidence / sources" as Web
+actor "User" as User
+rectangle "1–2. Problem diamond" {
+  usecase "Research problem\nand challenges" as UC_Research
+  usecase "Consult distinct\nresearch sources" as UC_Sources
+  usecase "Score and propose\nchallenges" as UC_ScoreCh
+  usecase "Select challenges\nto pursue" as UC_SelCh
+  usecase "Ask-mode pause:\nuser chooses / steers challenges" as UC_AskCh #FFF2CC
+  UC_Research -[hidden]right-> UC_Sources
+  UC_Sources -[hidden]right-> UC_ScoreCh
+  UC_ScoreCh -[hidden]right-> UC_SelCh
+  UC_SelCh -[hidden]right-> UC_AskCh
+  UC_Research ..> UC_Sources : <<include>>
+  UC_ScoreCh ..> UC_SelCh : <<include>>
+  UC_AskCh ..> UC_SelCh : <<extend>>\n[ask mode]
+}
+Web --> UC_Sources
+User --> UC_AskCh
+@enduml
+
+@startuml ideator-usecase-solution
+left to right direction
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam Padding 14
+skinparam nodesep 60
+skinparam ranksep 55
+skinparam usecase {
+  BackgroundColor #F0F6FC
+  BorderColor #356282
+}
+skinparam note {
+  BackgroundColor #FFF8DC
+  BorderColor #C9A227
+}
+actor "User" as User
+rectangle "3–4. Solution diamond" {
+  usecase "Generate ideas per\nselected challenge" as UC_Ideas
+  usecase "Score, weight, rank\nideas and form concepts" as UC_ScoreIdeas
+  usecase "Select concepts\nto pretotype" as UC_SelConcept
+  usecase "Ask-mode pause:\nuser chooses concepts" as UC_AskConcept #FFF2CC
+  UC_Ideas -[hidden]right-> UC_ScoreIdeas
+  UC_ScoreIdeas -[hidden]right-> UC_SelConcept
+  UC_SelConcept -[hidden]right-> UC_AskConcept
+  UC_ScoreIdeas ..> UC_SelConcept : <<include>>
+  UC_AskConcept ..> UC_SelConcept : <<extend>>\n[ask mode]
+}
+User --> UC_AskConcept
+note bottom of UC_ScoreIdeas
+Weighted = (cheap + simple) × evidence × uniqueness.
+Auto: top 5 ideas; top 2 concepts.
+end note
+@enduml
+
+@startuml ideator-usecase-pretotypes
+left to right direction
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam Padding 14
+skinparam nodesep 60
+skinparam ranksep 55
+skinparam usecase {
+  BackgroundColor #F0F6FC
+  BorderColor #356282
+}
+skinparam note {
+  BackgroundColor #FFF8DC
+  BorderColor #C9A227
+}
+actor "User" as User
+rectangle "5. Pretotypes and delivery" {
+  usecase "Design pretotype\ntests and materials" as UC_Pretotype
+  usecase "Select tests\nand start dates" as UC_SelTest
+  usecase "Ask-mode pause:\nuser chooses tests / starts" as UC_AskTest #FFF2CC
+  usecase "Deliver reports,\nkey results and board" as UC_Deliver
+  UC_Pretotype -[hidden]right-> UC_SelTest
+  UC_SelTest -[hidden]right-> UC_AskTest
+  UC_AskTest -[hidden]right-> UC_Deliver
+  UC_Pretotype ..> UC_SelTest : <<include>>
+  UC_AskTest ..> UC_SelTest : <<extend>>\n[ask mode]
+}
+User --> UC_AskTest
+note bottom of UC_Pretotype
+Hypothesis + success number + deadline + go/no-go.
+Materials drafted only; people run tests.
+If a start date is known, Select tests includes
+Schedule deadline+1 check-in (Follow-up band).
+end note
+@enduml
+
+@startuml ideator-usecase-followup
+left to right direction
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam Padding 14
+skinparam nodesep 60
+skinparam ranksep 55
+skinparam usecase {
+  BackgroundColor #F0F6FC
+  BorderColor #356282
+}
+actor "User" as User
+actor "One-time\ncheck-in scheduler" as Sched
+rectangle "Follow-up after human-run tests" {
+  usecase "Schedule deadline+1\ncheck-in" as UC_Schedule
+  usecase "Ask for test results\nat check-in" as UC_AskResults
+  usecase "Recommend go,\nno-go or iterate" as UC_Decide
+  usecase "Record outcome\nin report(s)" as UC_Record
+  UC_Schedule -[hidden]right-> UC_AskResults
+  UC_AskResults -[hidden]right-> UC_Decide
+  UC_Decide -[hidden]right-> UC_Record
+  UC_Schedule ..> UC_AskResults : <<include>>
+  UC_AskResults ..> UC_Decide : <<include>>
+  UC_Decide ..> UC_Record : <<include>>
+}
+User --> UC_AskResults
+Sched --> UC_Schedule
+Sched --> UC_AskResults
+@enduml
+
+@startuml ideator-usecase-legend
+skinparam dpi 170
+skinparam defaultFontName SansSerif
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam card {
+  BackgroundColor #FFF8DC
+  BorderColor #C9A227
+  FontSize 14
+}
+card "**Legend / qualifications**\n• Yellow ovals = ask-mode <<extend>> pauses; auto mode uses base selects without pausing.\n• Each use case appears once; phase bands are separate PlantUML renders composed top-down for readable package membership.\n• Go / no-go / iterate are recommendations after observed results; no automatic new ideation cycle is defined.\n• Designed from the live Ideator profile. Runtime behavior not verified." as legend
+@enduml

@@ -12,7 +12,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 
 ### Problem solving proccess explained visually
 These diagrams explains exactly how the process works
-- [Sequence](SEQUENCE.md) | [State Machine](STATEMACHINE.md)
+- [Use cases](USECASE.md) | [Sequence](SEQUENCE.md) | [State Machine](STATEMACHINE.md)
 
 ### Problem solving tasks ends with a report
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
