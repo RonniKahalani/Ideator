@@ -9,7 +9,8 @@ Your Grok Bots are available on phone, desktop and Tesla devices.
 
 ## Get them Grok Bots running
 Here is what to do, to get them Grok Bots running, in minutes:
-- **You need a Premium X-Subscription plan, or higher, to use Grok Bots.**
+
+`Premium X-Subscription, or higher, for using Grok Bots`
 - Pick your [X-Subscription](https://x.ai/pricing) plan.
 - Install [Grok Bot Desktop](https://x.ai/bot).
 

@@ -51,13 +51,12 @@ These diagrams explains exactly how the process works
 * Writes pretotype tests with a hypothesis, a success number, a deadline, and go or no-go rules.  
 * Drafts the materials a person needs to run each recommended first test, such as fake-door copy, email or SMS scripts and survey questions.
 * It only prepares them; it never sends, publishes or posts anything.
-* You can limit the number of pretotype tests across concepts, via the **pretotypes** [knob](KNOBS.md).
+* You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-When a problem task completes a report is made with 3 possible deliveries
-* [Visual Board](img/board.png) (.png).
-* [Markdown](samples/community-library-visitors.md) (.md - default) or [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (.html) report.
-* If the **format** [knob](KNOBS.md) equals **both**, then both report formats will be created.
+When problem tasks completes a report is made, consisting of
+* [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html).
+* If `format` [knob](KNOBS.md) equals `both`, then both report formats will be created.
 
 ## Workload and processing time
 
