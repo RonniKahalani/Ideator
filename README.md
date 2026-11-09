@@ -12,8 +12,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 
 ### The problem solving proccess explained visually
 These [UML](https://www.omg.org/uml) diagrams explains exactly how it works
-- [State Machine](STATEMACHINE.md)
-- [Sequence](SEQUENCE.md)
+- [Sequence](SEQUENCE.md) | [State Machine](STATEMACHINE.md)
 
 ### When problem solving tasks are completed
 A final ideation report is created, consisting of:
