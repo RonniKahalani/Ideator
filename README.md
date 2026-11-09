@@ -8,31 +8,18 @@ An AI-Agent (Grok Bot) that turns complex problems into testable ideas, using we
 
 An automated hybrid between a creative director and coach, on a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas, drops a full report and visual board, ready to facilitate test plans, well before lunch.
 
-When solving a problem, it can be in one of two modes:
-- `ask` -  You're asked to make decisions and selections at each phase.
-- `auto` - No interruptions, it does all the decisionmaking by itself.
-
-When a problem task completes, a report is created, consisting of:
-- [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
-
 The problem solving proccess explained in [UML](https://www.omg.org/uml) diagrams
 - [State Machine](STATEMACHINE.md)
 - [Sequence](SEQUENCE.md)
 
-## A Business case
-Imagine, you own a small startup and you wants to solve real problems.
+A problem solving task can be in one of two modes:
+- `ask` -  You're asked for decisions and selections in each phase.
+- `auto` - No interruptions, it does all the decisionmaking by itself.
 
-Research the challenges behind the problem, create ideas and concepts to explore for new business opportunities in specific markets.
+When problem solving tasks are completed, a report is created, consisting of:
+- [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
-You'd need a team of people for research, design, finance, production, HR, facilitator.... and a lot of time and money to deliver a proper and productive team to solve your problems.
-
-Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (YOur DAta).
-
-You must continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
-
-Ideator reduces waste (time & money) with automated research, ideation, decisionmaking and project time/effort/cost drop from weeks to minutes.
-
-Would you like Ideator working for you 24/7, solving all you problems?
+Want talk about business cases?
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
@@ -89,6 +76,7 @@ An average problem statement report can take 10-20 minutes, or more, depending o
 
 ## Further details
 - [Grok Bots](GROKBOT.md)
+- [Business Case](BUSINESSCASE.md)
 - [Phases](PHASES.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Scoring & Rating](SCORING.md)
