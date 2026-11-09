@@ -17,8 +17,6 @@ These diagrams explains exactly how the process works
 ### Problem solving tasks ends with a report
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
-Want to read on? (recommended) or [get your own Ideator bot](#get-your-own-ideator-bot), right now?
-
 ## What Ideator does
 - Takes a problem statement, research related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
