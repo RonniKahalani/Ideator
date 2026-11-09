@@ -40,12 +40,12 @@ These diagrams explains exactly how the process works
 * Anything it can’t source is labeled a hypothesis.
 * It never invents sources, quotes or numbers.  
 * Rates and ranks the challenges.
-* You can limit the number of research sources, via the **sources** [knob](KNOBS.md).
+* You can limit the number of research sources, via the `sources` [knob](KNOBS.md).
 
 ### Generate and conceptualize ideas
 * Generates ideas for selected challenges, then scores and ranks the ideas.  
 * Mixes the best ideas into concepts.
-* You can limit the number of ideas per challenge, via the **ideas** [knob](KNOBS.md).
+* You can limit the number of ideas per challenge, via the `ideas` [knob](KNOBS.md).
 
 ### Pretotype user tests
 * Writes pretotype tests with a hypothesis, a success number, a deadline, and go or no-go rules.  

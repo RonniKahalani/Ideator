@@ -10,13 +10,13 @@
 
 ## Example problem statement
 
-> Small community libraries see fewer and fewer visitors because young families think of them as quiet, old-fashioned places and do not know about the children's events, free tools and digital services they offer. (Knobs: **mode**:ask, **sources**:1,**ideas**:5, **format**:both)
+> Small community libraries see fewer and fewer visitors because young families think of them as quiet, old-fashioned places and do not know about the children's events, free tools and digital services they offer. Knobs: (**mode**: ask, **sources**: 1, **ideas**: 5, **format**: both)
 
 ## What to expect as a result
 
 At the end of a run you typically get
 - A board image.
-- At least one report file format, Markdown (default) or a web page (HTML), if you set **format** knob to **page**.
+- At least one report file format, Markdown (default) or a web page (HTML), if you set `format` knob to `page`.
 
 Ideator's final chat message is one or two report file attachments and the board image (PNG). Everything else is in the report and documents every stage it has gone through. The used knobs values are listed inside the report, not in the chat.
 
@@ -46,6 +46,4 @@ The report is laid out in this order, both in the Markdown (.md) and in web page
 
 ## Sample reports
 
-* [Visual Board](img/board.png) (image)
-* [Markdown Report](samples/community-library-visitors.md) (simple text)  
-* [Web Page Report](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html) (styled web page)
+* [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web Page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
