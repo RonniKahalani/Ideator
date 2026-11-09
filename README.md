@@ -55,7 +55,7 @@ These diagrams explains exactly how the process works
 
 ### Generate reports
 When problem tasks completes a report is made, consisting of
-* [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html).
+* [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 * If `format` [knob](KNOBS.md) equals `both`, then both report formats will be created.
 
 ## Workload and processing time
