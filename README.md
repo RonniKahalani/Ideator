@@ -19,8 +19,6 @@ A problem solving task can be in one of two modes:
 When problem solving tasks are completed, a report is created, consisting of:
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
-Want talk about business cases?
-
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
 
