@@ -19,10 +19,7 @@ A problem solving task can be in one of two modes:
 When problem solving tasks are completed, a report is created, consisting of:
 - [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
 
-## Get your own Ideator bot
-- Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
-
-- Already using Grok Bots? [Get Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+Want to read on (recommended) or [get your own Ideator bot](#get-your-own-ideator-bot), right now?
 
 ## What Ideator does
 - Takes a problem statement, research related challenges and generates testable ideas.
@@ -71,6 +68,11 @@ When a problem task completes a report is made with 3 possible deliveries
 The workload, data and time needed for the realtime web research- and visual board image tasks consumes credits and takes time.
 
 An average problem statement report can take 10-20 minutes, or more, depending on the workload set in the [knob settings](KNOBS.md).
+
+## Get your own Ideator bot
+- Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
+
+- Already using Grok Bots? [Get Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## Further details
 - [Grok Bots](GROKBOT.md)
