@@ -7,8 +7,8 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 An AI-Agent (Grok Bot) acting like an automated hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas, drops an ideation report and visual board, ready and eager to facilitate test plans, well before lunch.
 
 ### Problem solving tasks runs in one of two modes
-- `ask` -  User is asked for decisions and selections in each phase.
-- `auto` - No interruptions, it does all the decisionmaking by itself.
+- `ask` -  Asks the user for decisions in each [phase](PHASES.md).
+- `auto` - No interruptions, does all decisionmaking by itself.
 
 ### Problem solving proccess explained visually
 These diagrams explains exactly how the process works
