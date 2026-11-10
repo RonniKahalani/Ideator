@@ -14,7 +14,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 - These [UML diagrams](UML.md) explains exactly how the process works.
 
 ### Problem solving tasks ends with a report
-- [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
+The report is created as a Google Drive Sheet. Also check out the `template` [knob](KNOBS.md).
 
 ## What Ideator does
 - Takes a problem statement, research related challenges and generates testable ideas.
@@ -53,7 +53,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-When problem tasks completes a report is created as a Google Drive Sheet.
+When problem tasks completes a report is created as a Google Drive Sheet. Also check out the `template` [knob](KNOBS.md).
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
