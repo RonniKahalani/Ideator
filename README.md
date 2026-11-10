@@ -63,7 +63,7 @@ Use the `template`knop to reference an existing Sheet to use as a template. Enab
 
 The workload, data and time needed for the realtime web research- and visual board image tasks consumes credits and takes time.
 
-An average problem statement report can take 10-20 minutes, or more, depending on the workload set in the [knob settings](KNOBS.md).
+An average problem statement report can take 3-10 minutes, or more, depending on the workload set in the [knob settings](KNOBS.md).
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
