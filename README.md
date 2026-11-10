@@ -14,7 +14,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 - These [UML diagrams](UML.md) explains exactly how the process works.
 
 ### Problem solving tasks ends with a report
-- The report is a Google Drive Sheet.
+- A Google Drive Sheet [(sample)](samples/office-fridge-lunches-2026-11-10-2123.xlsx).
 - Check out the `template` [knob](KNOBS.md).
 
 ## What Ideator does
@@ -54,7 +54,8 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-When problem tasks completes a report is created as a Google Drive Sheet. Also check out the `template` [knob](KNOBS.md).
+- A Google Drive Sheet [(sample)](samples/office-fridge-lunches-2026-11-10-2123.xlsx).
+- Check out the `template` [knob](KNOBS.md).
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
