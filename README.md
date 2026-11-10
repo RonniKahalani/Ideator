@@ -53,9 +53,9 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-When problem tasks completes a report is made, consisting of
-* [Visual Board](img/board.png) | [Markdown](samples/community-library-visitors.md) | [Web page](https://htmlpreview.github.io/?https://github.com/RonniKahalani/Ideator/blob/main/samples/community-library-visitors.html)
-* If `format` = `both`, Markdown and Web page reports are made.
+When problem tasks completes a report is created as a Google Drive Sheet.
+
+Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
 ## Workload and processing time
 
