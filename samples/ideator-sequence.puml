@@ -1,96 +1,127 @@
-@startuml ideator-sequence
-!pragma layout smetana
-skinparam dpi 150
+@startuml
+skinparam dpi 110
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 13
+skinparam shadowing false
 skinparam backgroundColor #FFFFFF
-skinparam sequenceMessageAlign center
-skinparam maxMessageSize 500
-hide footbox
-title Ideator | problem solving and decisions\nDesigned workflow — current saved setup; runtime behavior not verified
-actor User as U
+skinparam wrapWidth 320
+skinparam maxMessageSize 300
+skinparam ArrowColor #1E293B
+skinparam titleFontSize 20
+skinparam titleFontStyle bold
+skinparam noteBackgroundColor #F1F5F9
+skinparam noteBorderColor #64748B
+skinparam noteFontSize 12
+skinparam legendBackgroundColor #FFFFFF
+skinparam legendBorderColor #94A3B8
+skinparam legendFontSize 12
+skinparam sequence {
+  ParticipantBackgroundColor #F8FAFC
+  ParticipantBorderColor #334155
+  LifeLineBorderColor #94A3B8
+  GroupBackgroundColor #F1F5F9
+  GroupBorderColor #64748B
+  DividerBackgroundColor #E2E8F0
+}
+skinparam responseMessageBelowArrow true
+title Ideator — sequence diagram (designed workflow, 2026-11-10)
+
+actor "User\n(Ronni)" as U
 participant "Ideator" as I
-participant "Fresh web\nevidence" as W
-database "Run report(s)\nand board" as R
-participant "One-time\ncheck-ins" as T
+participant "Web / research\nsources" as W
+participant "sheet_builder.py\n(local, /workspace/ideas)" as B
+participant "Google Drive\nconnector" as D
+database "Google Sheet\n(output)" as S
+participant "Routine\nscheduler" as R
 
-U -> I : Problem statement + optional run knobs
-note over U,I
-Required: problem. Defaults: 5 ideas / challenge, 4 tests, 5 sources; markdown; auto.
-Country: explicit > problem / research > US; language: explicit > message > English.
-Only mode persists. Save every phase, score and decision to the report(s).
-end note
+== Greeting (only when no problem statement) ==
+U -> I : hi / opens chat
+I --> U : intro + "Tip: give me a problem statement."\nRun knobs list with defaults (ideas 5, pretotypes 4,\nsources 5, country United States, language English,\nformat sheet, mode <saved or auto>,\ntemplate https://docs.google.com/spreadsheets/d/15QQc1JBY3Vu7xxubbQRnX8BpTj8RtGDCjewJph-QFYA/edit)\n+ pretotype explanation + example problem
 
-== Diamond 1: explore the problem, then focus ==
-group Discover — divergent
-I -> W : Research problem, customer voice and competitors\nFind and cite sources-knob distinct sources; market-focused
-W --> I : Findings + source links
-I -> I : Derive evidence-grounded challenges and sticky notes\nUnsourced claims are labeled hypotheses
-end
-group Define — convergent
-I -> I : Rate possible and exciting (each 1–5)\nRank by sum; propose at most 5 challenges
-alt ask mode
-I -> U : Ranked challenges: choose or steer
-U --> I : Selected challenges / direction
-else auto mode
-I -> I : Select top 5; ties: exciting, then possible\nRecord picks and reasons
-end
-end
+== Start ==
+U -> I : problem statement [+ optional knobs]
+I -> I : parse knobs (missing = default; never asked)\ncountry/language never from memory\nsave mode only; template per run\nrecord run_started (with seconds)
+note right of I : no opening message before the run
 
-== Diamond 2: explore solutions, then focus ==
-group Develop — divergent
-I -> I : Generate ideas-knob ideas per selected challenge\nFit market culture, habits and rules
-end
-group Deliver — convergent
-I -> I : Score and rank all ideas; pick at most 5\nMix ideas into concepts
-note over I,R
-Weighted = (cheap + simple) × evidence × uniqueness, 1 decimal.
-Cheap / simple: 1–5. Evidence: 1.3 / 1.15 / 1.0, with source IDs.
-Uniqueness: 1.2 / 1.1 / 1.0. Ties: evidence > uniqueness > simple > cheap;
-then ID order, explicitly labeled unresolved / arbitrary.
-end note
-alt ask mode
-I -> U : Ranked ideas + concepts: choose concepts to pretotype
-U --> I : Approved concepts
-else auto mode
-I -> I : Choose top 2 concepts by mean constituent idea score\nTies: mean evidence level, then number of ideas
-end
+== Discover ==
+I -> W : web research (complaints, reviews, forums,\narticles, competitors) for the country market
+W --> I : <sources> distinct sources
+I -> I : challenges C1..C10 (cited, or\n"hypothesis, no evidence found") + sticky notes\nsave Sources / Sticky notes to run JSON
+
+== Define ==
+I -> I : Possible + Exciting (1-5 each) -> Score; rank\nties: Exciting > Possible > ID; top 5\nsave to JSON
+alt mode = ask
+  I -> U : PAUSE: ranked challenges, which to pursue?
+  U --> I : chosen / steered challenges
+else mode = auto
+  I -> I : auto-pick top 5, record reason
 end
 
-== Test design and delivery — not proof of demand ==
-I -> I : Design pretotypes-knob tests across selected concepts\nBest concept first; at least one each when count allows
-I -> R : Save hypotheses, success numbers, deadlines, go/no-go rules\nRecommend first test per concept + ready-to-use materials
-note over U,I
-People run tests. Ideator drafts, never sends / posts / publishes materials.
-Materials: market language + report language if different.
-end note
-alt ask mode
-I -> U : Which tests will you run, and when do they start?
-U --> I : Test selection and start dates / answer
-else auto mode
-I -> R : Mark recommended first tests selected\nState: check-in will be set up when start date is supplied
-end
-opt start date is known
-I -> T : Schedule one-time check-in: day after each test deadline
-end
-I -> R : Complete report(s), key results and PNG board\nOne shared title across board, MD heading, HTML h1 / title
-I -> U : Single final delivery: problem + 7 knobs + result line\nPNG board + requested MD, HTML, or both
+== Develop ==
+I -> I : <ideas> ideas per picked challenge,\nfitted to the country; save to JSON
 
-== Later: human-run tests and evidence-based follow-up ==
-opt start date supplied after delivery
-U -> I : Selected tests + start date
-I -> T : Schedule check-in for day after each deadline
+== Deliver ==
+I -> I : weighted = (Cheap + Simple) x evidence (1.3/1.15/1.0)\nx uniqueness (1.2/1.1/1.0), 1 decimal; top 5\nties: evidence > uniqueness > Simple > Cheap\n(else "unresolved tie, order arbitrary")\nconcepts ranked by avg weighted score; save to JSON
+alt mode = ask
+  I -> U : PAUSE: ranked ideas + concepts, which to pretotype?
+  U --> I : chosen concepts
+else mode = auto
+  I -> I : auto-pick top 5 ideas, top 2 concepts
 end
-U -> U : Run selected pretotypes with real users
-T -> I : Deadline + 1 day: check-in fires
-I -> U : Ask for test results
-U --> I : Observed results
-I -> I : Compare results with success number\nRecommend go, no-go, or iterate
-I -> R : Record outcome in every report; refresh key results / board
-I -> T : Delete completed check-in
+
+== Pretotypes ==
+I -> I : <pretotypes> tests (hypothesis, success number,\ndeadline, go / no-go, recommended first test)\nmaterials drafted only, never sent; save to JSON
+alt mode = ask
+  I -> U : PAUSE: which tests will you run, and when?
+  U --> I : selection [+ start dates]
+else mode = auto
+  I -> I : recommended first tests = selected;\ncheck-in waits for a start date
+end
+
+== Report build: build locally, upload once ==
+I -> I : set run_stopped (with seconds) in run JSON
+alt template set (default: Ideator Template)
+  I -> D : export_file(template, xlsx) — once, read-only
+  D --> I : template-export.xlsx
+  I -> B : sheet_builder.py run.json --template template-export.xlsx
+  B -> B : build 15 report tabs from scratch (row 1, no branding)\ntemplate's own tabs first, read-only (fingerprint assert)\nsame-named tabs replaced in place, others appended
+  B --> I : <name>.xlsx + warnings
+else template: none
+  I -> B : sheet_builder.py run.json
+  B --> I : <name>.xlsx (15 tabs from scratch)
+end
+I -> D : create_file(title = <problem>-YYYY-MM-DD-HHMM,\nxlsx base64, target = native Google Sheet) — ONE call
+D -> S : create native Google Sheet in My Drive
+D --> I : file id + link
+I -> D : get_file_metadata (native sheet, run name)
+opt name is not the run name (e.g. "Copy of ...")
+  I -> D : update_file: rename the copy (never the template)
+end
+I -> D : get_file_permissions (owner only, never shared)
+I -> D : export_file(new sheet, xlsx) — one compare
+D --> I : xlsx
+I -> I : compare locally with <name>.xlsx; fix real mismatches only
+I --> U : final delivery (one message): problem verbatim,\nRun knobs (8 lines), "Here is the result.", sheet-name link
+
+== Follow-up (later) ==
+U -> I : start date(s) for selected tests
+I -> R : create one-time routine: day after each deadline
+R -> I : routine fires
+I -> U : ask for results
+U --> I : observed results
+I -> I : compare with success number -> go / no-go / iterate\nupdate JSON, rebuild (same template branch)
+I -> D : create_file new sheet named with update time
+I --> U : which sheet is now current (older sheet kept)
+I -> R : delete spent routine
+
+== Cancellation (any time) ==
+U -> I : cancel
+I -> I : stop all work; Problem "Cancelled" = CANCELLED; rebuild
+I -> D : create_file rebuilt sheet
+I -> R : delete follow-up routine(s)
 
 legend bottom
-Ask mode waits at all three gates; auto mode runs through materials, board and delivery.
-Cancellation at any point: stop, mark reports CANCELLED, delete run check-ins.
+  Never delete anything on Drive. The template file is never written, renamed, moved, shared or deleted.
+  If the Drive connector is missing: tell the user to connect Google Drive and stop; no other delivery.
 endlegend
 @enduml

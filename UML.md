@@ -1,8 +1,8 @@
 # UML - Problem solving and decisions
 
 # Use cases
-![](img/ideator-usecase.png)
-[View PlantUML](samples/ideator-usecase.puml)
+![](img/ideator-use-case.png)
+[View PlantUML](samples/ideator-use-case.puml)
 
 # Sequence
 ![](img/ideator-sequence.png)
@@ -11,3 +11,7 @@
 # State Machine
 ![](img/ideator-state-machine.png)
 [View PlantUML](samples/ideator-state-machine.puml)
+
+# Workflows
+![](img/ideator-workflow.png)
+[View PlantUML](samples/ideator-workflow.puml)

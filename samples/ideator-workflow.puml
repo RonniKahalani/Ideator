@@ -1,0 +1,188 @@
+@startuml
+skinparam dpi 110
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam backgroundColor #FFFFFF
+skinparam wrapWidth 320
+skinparam maxMessageSize 300
+skinparam ArrowColor #1E293B
+skinparam titleFontSize 20
+skinparam titleFontStyle bold
+skinparam noteBackgroundColor #F1F5F9
+skinparam noteBorderColor #64748B
+skinparam noteFontSize 12
+skinparam legendBackgroundColor #FFFFFF
+skinparam legendBorderColor #94A3B8
+skinparam legendFontSize 12
+skinparam activity {
+  BackgroundColor #F8FAFC
+  BorderColor #334155
+  FontSize 13
+  DiamondBackgroundColor #FFF8E1
+  DiamondBorderColor #B45309
+  DiamondFontSize 12
+}
+skinparam swimlane {
+  TitleFontSize 15
+  TitleFontStyle bold
+  BorderColor #64748B
+}
+title Ideator — workflow (activity diagram, designed workflow, 2026-11-10)
+
+|#FFFFFF|User (Ronni)|
+start
+:Send message;
+|#F8FAFC|Ideator|
+if (Problem statement given?) then (no)
+  :Greeting: intro + "Tip: give me a problem statement."
+  Run knobs list (shown values are defaults),
+  template as full URL, pretotype note, example problem;
+  |User (Ronni)|
+  :Send problem statement;
+  |Ideator|
+else (yes)
+endif
+:Parse 8 knobs (missing = default, never asked):
+ideas 5 | pretotypes 4 | sources 5 | country United States*
+language = message language / English | format = sheet
+mode = saved, else auto | template = Ideator Template URL, id/URL or none
+(* only if statement + research point nowhere else; never from memory)
+Only mode is saved, record run_started with seconds,
+no opening message;
+
+|Ideator|
+:<b>DISCOVER</b>; <<#CBD5E1>>
+  |#EEF6FF|Web / research sources|
+  :Customer complaints, reviews, forums / Reddit,
+  articles, competitors — country market;
+  |Ideator|
+  :Cite <sources> distinct sources (ID, URL, summary + limitations);
+  :Challenges C1..C10, each cited or "hypothesis, no evidence found";
+  :Sticky note per challenge, save to run JSON;
+
+|Ideator|
+:<b>DEFINE</b>; <<#CBD5E1>>
+  :Possible 1-5 + Exciting 1-5 -> Score, rank;
+  :Propose top 5 (ties: higher Exciting, then Possible, then ID);
+  if (mode?) then (ask)
+    |User (Ronni)|
+    :PAUSE: choose / steer challenges; <<#FFF3C4>>
+    |Ideator|
+  else (auto)
+    :Auto-pick top 5, write pick + reason in sheet;
+  endif
+  :Save ratings + picks to JSON;
+
+|Ideator|
+:<b>DEVELOP</b>; <<#CBD5E1>>
+  :<ideas> ideas per picked challenge (C4-I1 ...),
+  fitted to country's culture, habits and rules, save to JSON;
+
+|Ideator|
+:<b>DELIVER</b>; <<#CBD5E1>>
+  :Cheap + Simple (1-5 each) -> base 2-10;
+  :x evidence: strong 1.3 / some 1.15 / none 1.0 (hypothesis)
+  x uniqueness: non-obvious 1.2 / somewhat 1.1 / obvious 1.0
+  weighted score, rounded half up to 1 decimal;
+  :Top 5, tie-break evidence > uniqueness > Simple > Cheap;
+  if (still tied?) then (yes)
+    :Lowest ID first, mark
+    "unresolved tie, order arbitrary";
+  else (no)
+  endif
+  :Pick reasons + weighting notes, mix ideas into concepts,
+  rank by avg weighted score (ties: avg evidence, more ideas);
+  if (mode?) then (ask)
+    |User (Ronni)|
+    :PAUSE: review ideas + concepts,
+    choose concepts to pretotype; <<#FFF3C4>>
+    |Ideator|
+  else (auto)
+    :Auto-pick top 5 ideas + top 2 concepts;
+  endif
+  :Save to JSON;
+
+|Ideator|
+:<b>PRETOTYPES</b>; <<#CBD5E1>>
+  :<pretotypes> tests across picked concepts, best first:
+  hypothesis, success number, deadline, testable line, go / no-go,
+  one recommended first test per concept;
+  :Draft materials for recommended tests
+  (country language + report language), never send / post;
+  if (mode?) then (ask)
+    |User (Ronni)|
+    :PAUSE: which tests run, and start dates?; <<#FFF3C4>>
+    |Ideator|
+  else (auto)
+    :Recommended first tests = selected,
+    check-in status: "set up when you give a start date";
+  endif
+  :Save to JSON, set run_stopped (with seconds);
+
+|Ideator|
+:<b>REPORT BUILD — BUILD LOCALLY, UPLOAD ONCE</b>; <<#CBD5E1>>
+  if (template knob?) then (set)
+    |#E0F2FE|Google Drive connector|
+    :export_file template as xlsx, once
+    (template is read-only, never modified);
+    |#F0FDF4|sheet_builder.py (local)|
+    :sheet_builder.py run.json --template template-export.xlsx;
+    :Template's own tabs first, in template order,
+    read-only (fingerprint assert: cells, styles,
+    row heights, widths, images, freeze, filters);
+    :15 report tabs built from scratch: same-named
+    tab replaced in place, missing tabs appended;
+  else (none)
+    |sheet_builder.py (local)|
+    :sheet_builder.py run.json
+    (15 report tabs from scratch);
+  endif
+  |sheet_builder.py (local)|
+  :Sheet rules on report tabs:
+  15 tabs in order, header on row 1, no branding,
+  green #A8E6A3 + bold selected rows, top-aligned wrapped text,
+  text columns auto-width, max 42 units (~300 px),
+  no fixed row heights, frozen header + filters,
+  ID sort key, Source column except Tab guide,
+  Problem: Run started / Run stopped / Run time;
+  |Google Drive connector|
+  :ONE create_file: xlsx -> native Google Sheet
+  titled <problem>-YYYY-MM-DD-HHMM (never "Copy of");
+  :get_file_metadata (native, run name,
+  rename copy with update_file if needed);
+  :get_file_permissions: owner only, never shared;
+  :One export_file (xlsx) of the new sheet;
+  |Ideator|
+  :Compare locally with <name>.xlsx,
+  fix real mismatches only;
+
+|User (Ronni)|
+:Final chat delivery (one message):
+problem verbatim, Run knobs (8 lines),
+"Here is the result.", sheet-name link;
+
+if (Start date given later?) then (yes)
+  |#FDF4FF|Routine scheduler|
+  :One-time routine per selected test,
+  fires the day after its deadline;
+  |Ideator|
+  :Ask results, compare with success number,
+  recommend go / no-go / iterate;
+  :Update JSON, rebuild, upload NEW sheet
+  (update time), say which is current;
+  |Routine scheduler|
+  :Delete spent routine;
+else (no)
+endif
+|User (Ronni)|
+stop
+
+note right
+  Cancel at any time: stop all work,
+  Problem "Cancelled" = CANCELLED in a
+  rebuilt + newly uploaded sheet,
+  delete follow-up routine.
+  Never delete anything on Drive.
+end note
+@enduml

@@ -1,0 +1,112 @@
+@startuml
+skinparam dpi 110
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 13
+skinparam shadowing false
+skinparam backgroundColor #FFFFFF
+skinparam wrapWidth 320
+skinparam maxMessageSize 300
+skinparam ArrowColor #1E293B
+skinparam titleFontSize 20
+skinparam titleFontStyle bold
+skinparam noteBackgroundColor #F1F5F9
+skinparam noteBorderColor #64748B
+skinparam noteFontSize 12
+skinparam legendBackgroundColor #FFFFFF
+skinparam legendBorderColor #94A3B8
+skinparam legendFontSize 12
+left to right direction
+skinparam packageStyle rectangle
+skinparam usecase {
+  BackgroundColor #F8FAFC
+  BorderColor #334155
+  FontSize 13
+}
+skinparam usecase<<pause>> {
+  BackgroundColor #FFF3C4
+  BorderColor #B45309
+}
+skinparam usecase<<drive>> {
+  BackgroundColor #E0F2FE
+  BorderColor #0369A1
+}
+skinparam actorFontSize 14
+title Ideator — use case diagram (designed workflow, 2026-11-10)
+
+actor "User\n(Ronni)" as U
+actor "Routine\nscheduler" as R
+actor "Web / research\nsources" as W
+actor "sheet_builder.py\n(local)" as B
+actor "Google Drive\nconnector" as D
+actor "Google Sheet\n(output)" as S
+
+rectangle "Ideator" {
+  usecase "Greet: intro + Tip +\nknobs list with defaults\n(template as full URL)" as UC_G
+  usecase "Submit problem statement\n(+ optional knobs)" as UC_P
+  usecase "Set run knobs: ideas, pretotypes,\nsources, country, language,\nformat=sheet, mode, template\n(per run; only mode saved)" as UC_K
+  usecase "Switch mode\n(ask mode on / auto mode)" as UC_M
+  usecase "Run Double Diamond" as UC_RUN
+  usecase "Discover: cited research,\nchallenges + sticky notes\n(hypothesis label if unsourced)" as UC_DIS
+  usecase "Define: score Possible + Exciting,\npropose top 5" as UC_DEF
+  usecase "Develop: ideas per picked\nchallenge, country-fitted" as UC_DEV
+  usecase "Deliver: weighted scoring,\ntop 5 ideas, concepts" as UC_DEL
+  usecase "Design pretotypes +\ndraft materials (never sent)" as UC_PRE
+  usecase "Choose challenges\n(PAUSE after Define)" <<pause>> as UC_C1
+  usecase "Choose concepts\n(PAUSE after Deliver)" <<pause>> as UC_C2
+  usecase "Select tests + start dates\n(PAUSE, pretotype selection)" <<pause>> as UC_C3
+  usecase "Auto-pick: top 5 challenges,\ntop 5 ideas, top 2 concepts,\nrecommended first tests" as UC_AUTO
+  usecase "Save stage data to run JSON" as UC_JSON
+  usecase "Build report locally\n(15 tabs, rules)" as UC_BUILD
+  usecase "Export template once\n(read-only)" <<drive>> as UC_EXP
+  usecase "Upload once as native\nGoogle Sheet (create_file)" <<drive>> as UC_UP
+  usecase "Verify: metadata, permissions\n(never shared), one export compare" <<drive>> as UC_VER
+  usecase "Receive final delivery:\nproblem, Run knobs,\n'Here is the result.', link" as UC_OUT
+  usecase "Report test results ->\ngo / no-go / iterate" as UC_RES
+  usecase "Follow-up check-in\n(day after deadline)" as UC_FU
+  usecase "Cancel run\n(CANCELLED flag, delete routine)" as UC_CAN
+}
+
+U --> UC_G
+U --> UC_P
+U --> UC_M
+U --> UC_C1
+U --> UC_C2
+U --> UC_C3
+U --> UC_OUT
+U --> UC_RES
+U --> UC_CAN
+
+UC_P ..> UC_K : <<include>>
+UC_P ..> UC_RUN : <<include>>
+UC_RUN ..> UC_DIS : <<include>>
+UC_RUN ..> UC_DEF : <<include>>
+UC_RUN ..> UC_DEV : <<include>>
+UC_RUN ..> UC_DEL : <<include>>
+UC_RUN ..> UC_PRE : <<include>>
+UC_RUN ..> UC_JSON : <<include>>
+UC_RUN ..> UC_BUILD : <<include>>
+UC_RUN ..> UC_OUT : <<include>>
+UC_C1 ..> UC_DEF : <<extend>>\n[ask mode]
+UC_C2 ..> UC_DEL : <<extend>>\n[ask mode]
+UC_C3 ..> UC_PRE : <<extend>>\n[ask mode]
+UC_AUTO ..> UC_RUN : <<extend>>\n[auto mode]
+UC_EXP ..> UC_BUILD : <<extend>>\n[template set]
+UC_BUILD ..> UC_UP : <<include>>
+UC_UP ..> UC_VER : <<include>>
+UC_FU ..> UC_RES : <<include>>
+UC_RES ..> UC_BUILD : <<include>>\n(new sheet)
+UC_CAN ..> UC_BUILD : <<include>>\n(new sheet)
+
+UC_DIS --> W
+UC_BUILD --> B
+UC_EXP --> D
+UC_UP --> D
+UC_VER --> D
+UC_UP --> S
+R --> UC_FU
+
+legend bottom
+  Yellow = ask-mode PAUSE decision (auto mode skips it and auto-picks instead).
+  Blue = Google Drive connector. Template never modified; nothing on Drive is ever deleted.
+endlegend
+@enduml
