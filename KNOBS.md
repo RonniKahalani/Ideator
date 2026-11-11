@@ -4,8 +4,8 @@ All knobs are optional. The problem statement is the only required input. Knobs 
 
 | Knob | Default | What it controls |
 | :---- | :---- | :---- |
-| **format** | `sheet` | Currently only `sheet` for the report format. |
 | **country** | `United States` | The target launch country for the product or service. It shapes the research sources, the cultural fit of the ideas, and the language of the pretotype materials. Ideator infers it from the problem or research if you do not set it. |
+| **format** | `sheet` | Currently only `sheet` for the report format. |
 | **ideas** | `5` | Number of ideas per challenge. |
 | **language** | `English` | The language of the report and all output prose. Quotes from sources stay in their original language with a translation. |
  | **mode** | `auto` | The research modes: `auto` or `ask`. |
@@ -21,9 +21,9 @@ Let's lower these knobs to
 - 2 pretotype tests split across concepts.
 - 2 research sources to explore.
 
-Start a chat by stating the knobs to set before the next problem statement:
->set knobs (**ideas**: 2, **sources**: 2, **pretotypes**: 2)
+Start a chat and ask for the knobs to set, before the next problem statement:
+>Set knobs **ideas**: 2, **sources**: 2, **pretotypes**: 2
 
-Then a problem statement to test the new knob settings:
+Then make a problem statement to test the new knob settings:
 
->Small community libraries see fewer and fewer visitors because young families think of them as quiet, old-fashioned places and do not know about the children's events, free tools and digital services they offer.
+>Office workers sharing a kitchen fridge keep finding their lunches gone or spoiled; the fridge fills with forgotten containers, nobody owns the cleanup, and staff complain in team chats every week about missing food and bad smells.
