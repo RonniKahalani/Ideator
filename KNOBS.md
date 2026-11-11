@@ -8,7 +8,7 @@ All knobs are optional. The problem statement is the only required input. Knobs 
 | **format** | `sheet` | Currently only `sheet` for the report format. |
 | **ideas** | `5` | Number of ideas per challenge. |
 | **language** | `English` | The language of the report and all output prose. Quotes from sources stay in their original language with a translation. |
- | **mode** | `auto` | The research modes: `auto` or `ask`. |
+ | **mode** | `auto` | The decisionmaking mode: `auto` or `ask`. |
 | **pretotypes** | `4` | Number of pretotype tests. |
 | **sources** | `5` | Number of distinct research sources found and cited. |
 | **template** | `https://docs.google.com/...` | The url to a Google Sheet template for the report. |
