@@ -77,7 +77,6 @@ An average problem statement report can take 3-10 minutes, or more, depending on
 ## Further details
 - [Business Case](BUSINESSCASE.md)
 - [Dependencies](DEPENDENCIES.md)
-- [Future](FUTURE.md)
 - [Grok Bots](GROKBOT.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI](COMPARE.md)
