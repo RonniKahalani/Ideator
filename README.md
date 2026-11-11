@@ -4,7 +4,7 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-An AI-Agent (Grok Bot) acting like an automated hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas and delivers a Google Sheet report, ready and eager to facilitate test plans, well before lunch.
+An AI-Agent (Grok Bot) acting like a hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas and delivers a report, in minutes, ready and eager to facilitate test plans.
 
 ### Problem solving tasks runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
@@ -64,9 +64,9 @@ Use the `template`knop to reference an existing Sheet to use as a template. Enab
 
 ## Workload and processing time
 
-The workload needed for the realtime web research- and report generation tasks consumes the most credits and time.
+The realtime web research- and report generation tasks consumes the most credits and time.
 
-An average problem statement report can take 3-10 minutes, or more, depending on the [knobs](KNOBS.md).
+An average problem statement report can take 3-10 minutes, or more, depending on the [knob](KNOBS.md) settings.
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
