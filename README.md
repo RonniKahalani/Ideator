@@ -4,7 +4,7 @@
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-An AI-Agent (Grok Bot) acting like an automated hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas, creates a report and visual board, ready and eager to facilitate test plans, well before lunch.
+An AI-Agent (Grok Bot) acting like an automated hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas and delivers a Google Sheet report, ready and eager to facilitate test plans, well before lunch.
 
 ### Problem solving tasks runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
@@ -14,7 +14,7 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 - These [UML diagrams](UML.md) explains exactly how the process works.
 
 ### Problem solving tasks ends with a report
-- A Google Drive Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
+- A Google Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Check out the `template` [knob](KNOBS.md).
 
 ## What Ideator does
@@ -54,10 +54,13 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-- A Google Drive Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
+- A Google Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Check out the `template` [knob](KNOBS.md).
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
+
+## Connectors
+- Google Drive - Reports generation.
 
 ## Workload and processing time
 
