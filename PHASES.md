@@ -1,6 +1,6 @@
 # Phases
 
-These are the 5 ideation phases it goes through:
+These are the 5 phases it goes through:
 
 ## Discover
   - Research first, then challenges grounded in the evidence.
