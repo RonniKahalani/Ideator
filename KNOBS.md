@@ -21,7 +21,7 @@ Let's lower these workload influencing knobs to
 - 2 `pretotypes` split across concepts.
 - 2 research `sources` to explore.
 
-Start a chat and ask for these knobs to set, before the next problem statement:
+Start a chat and ask for these knobs to be set, before the next problem statement:
 >Set knobs **ideas**: 2, **sources**: 2, **pretotypes**: 2
 
 Then make a problem statement to test the new knob adjustments:
