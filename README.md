@@ -8,7 +8,7 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 
 ### Problem solving
 #### The process explained visually
-- These [UML diagrams](UML.md) explains exactly how the process works.
+- These [diagrams](UML.md) explains exactly how the process works and what's going on under the hood.
 
 #### Tasks runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
