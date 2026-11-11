@@ -24,6 +24,6 @@ Let's lower these knobs to
 Start a chat and ask for the knobs to set, before the next problem statement:
 >Set knobs **ideas**: 2, **sources**: 2, **pretotypes**: 2
 
-Then make a problem statement to test the new knob settings:
+Then make a problem statement to test the new knob adjustments:
 
 >Office workers sharing a kitchen fridge keep finding their lunches gone or spoiled; the fridge fills with forgotten containers, nobody owns the cleanup, and staff complain in team chats every week about missing food and bad smells.
