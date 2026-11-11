@@ -11,7 +11,7 @@ All knobs are optional. The problem statement is the only required input. Knobs 
  | **mode** | `auto` | The research modes: `auto` or `ask`. |
 | **pretotypes** | `4` | Number of pretotype tests. |
 | **sources** | `5` | Number of distinct research sources found and cited. |
-| **template** | `https://docs.google.com/...` | The Google Sheet report template to use. |
+| **template** | `https://docs.google.com/...` | The url to a Google Sheet template. |
 
 ## Changing knob values
 Strive to reduce the workload by using the lowest possible knob values.
