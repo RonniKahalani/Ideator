@@ -6,14 +6,15 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 ## What Ideator is
 An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas and delivers a report, in minutes, waiting eagerly to facilitate test plans.
 
-### Problem solving tasks runs in one of two modes
+### Problem solving
+#### The process explained visually
+- These [UML diagrams](UML.md) explains exactly how the process works.
+
+#### Tasks runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
 - `auto` - No interruptions, does all decisionmaking by itself.
 
-### Problem solving proccess explained visually
-- These [UML diagrams](UML.md) explains exactly how the process works.
-
-### Problem solving tasks ends with a report
+#### Tasks ends with a report
 - A Google Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Check out the `template` [knob](KNOBS.md).
 
