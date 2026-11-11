@@ -59,14 +59,14 @@ An AI-Agent (Grok Bot) acting like an automated hybrid between a creative direct
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
-## Connectors
+## Integrations
 - Google Drive - Reports generation.
 
 ## Workload and processing time
 
-The workload, data and time needed for the realtime web research- and visual board image tasks consumes credits and takes time.
+The workload needed for the realtime web research- and report generation tasks consumes the most credits and time.
 
-An average problem statement report can take 3-10 minutes, or more, depending on the workload set in the [knob settings](KNOBS.md).
+An average problem statement report can take 3-10 minutes, or more, depending on the [knobs](KNOBS.md).
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
