@@ -60,8 +60,11 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
-## Integrations
-- Google Drive - Reports generation.
+## Dependencies
+List of current dependencies to integrations, connectors or plugins.
+| Type | Purpose |
+| :---- | :---- |
+| Google Drive connector| For generating Google Sheet reports. | 
 
 ## Workload and processing time
 
@@ -76,7 +79,6 @@ An average problem statement report can take 3-10 minutes, or more, depending on
 
 ## Further details
 - [Business Case](BUSINESSCASE.md)
-- [Dependencies](DEPENDENCIES.md)
 - [Grok Bots](GROKBOT.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI](COMPARE.md)
