@@ -10,16 +10,16 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 #### The process explained visually
 - These [diagrams](UML.md) explains exactly how the problem solving process works and what's under the hood.
 
-#### Tasks runs in one of two modes
+#### A tasks runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
 - `auto` - No interruptions, does all decisionmaking by itself.
 
-#### Tasks ends with a report
+#### A tasks ends with a report
 - A Google Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Check out the `template` [knob](KNOBS.md).
 
 ## What Ideator does
-- Takes a problem statement, research related challenges and generates testable ideas.
+- Takes a problem statement, researches related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
 ### Follows well-known design processes and principles
