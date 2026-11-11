@@ -34,7 +34,7 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
     - Build - Measure - Learn, YODA, MVP testing, pivot or persevere.
 
 ### Research problems and related challenges
-* Research the web for real evidence about your problem.
+* Research the web, in realtime, for real evidence about your problem.
 * Explores complaints, reviews, forum threads, articles and how competitors handle it.  
 * Turns that evidence into challenges, each tied to a research source.
 * Anything it can’t source is labeled a hypothesis.
