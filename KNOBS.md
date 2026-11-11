@@ -16,10 +16,10 @@ All knobs are optional. The problem statement is the only required input. Knobs 
 ## Changing knob values
 Strive to reduce the workload by using the lowest possible knob values.
 
-Let's lower these knobs to
-- 2 ideas per challenge.
-- 2 pretotype tests split across concepts.
-- 2 research sources to explore.
+Let's lower these workload influencing knobs to
+- 2 `ideas` per challenge.
+- 2 `pretotypes` split across concepts.
+- 2 research `sources` to explore.
 
 Start a chat and ask for the knobs to set, before the next problem statement:
 >Set knobs **ideas**: 2, **sources**: 2, **pretotypes**: 2
