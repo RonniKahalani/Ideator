@@ -8,7 +8,7 @@ Enables maintaining behavior and resources, ex. scripts, data, prompts, skills, 
 
 ## Example use case
 
-Ideator needs script `sheet_builder.py` to build the Google Sheet. 
+Ideator needs the `sheet_builder.py` script to build the report Google Sheet. 
 
 When the sheet design changes, this script has to change too and be made available for the bot to download, before its next problem task.
 
@@ -18,7 +18,7 @@ This kit featue can also be used to make new data and instructions available for
 When giving a problem task, the bot checks for updates from a kit repo, defined by `kit` [knob](KNOBS.md).
 
 - Downloads new and updated files locally, on the bot cloud machine.
-- If local- and repo file size differs, do download.
+- If local- and repo file size differs, download it.
 
 ## Changing the kit repo
 The deafult `kit` value is https://github.com/RonniKahalani/Ideator/tree/main/kit
