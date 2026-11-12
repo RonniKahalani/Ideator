@@ -264,7 +264,7 @@ def build(data: dict, out_dir: Path):
         ["format", data.get("format") or "sheet", "output file type: sheet = Google Sheet", (f"copy of report template {data['template_ref']}" if data.get("template_ref") else "built from scratch (no template set)")],
         ["mode", kn.get("mode", "auto"), "generation type: auto or ask", f"{notes.get('mode', 'set for this run')}"],
         ["template", data.get("template_ref") or "none", "report template sheet: a Google Sheet id, or none = build from scratch", ("template knob for this run (template is never modified)" if data.get("template_ref") else "template: none; built from scratch")],
-        ["kit", kn.get("kit") or "https://github.com/RonniKahalani/Ideator", "GitHub kit-folder repo", f"{notes.get('kit', 'set for this run')}"]])
+        ["kit", kn.get("kit") or "https://github.com/RonniKahalani/Ideator/tree/main/kit", "GitHub kit-folder repo", f"{notes.get('kit', 'set for this run')}"]])
     stopped = data.get("run_stopped") or _now_like(data["run_started"])
     W("Problem", ["Field", "Value", "Source", "Notes"], ["text"] * 4, [
         ["Shared title", data["title"], "Ideator", "Report title."],
