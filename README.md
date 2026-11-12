@@ -6,7 +6,7 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 ## What Ideator is
 An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas and delivers a report, in minutes, eagerly waiting to facilitate test plans.
 
-### Problem solving
+### Problem solving process
 #### The process explained visually
 - These [diagrams](UML.md) explains exactly how the problem solving process works and what's under the hood.
 
@@ -15,8 +15,8 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 - `auto` - No interruptions, does all decisionmaking by itself.
 
 #### A tasks ends with a report
-- A Google Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
-- Check out the `template` [knob](KNOBS.md).
+- [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
+- Use `template` [knob](KNOBS.md) to select another template sheet.
 
 ## What Ideator does
 - Takes a problem statement, researches related challenges and generates testable ideas.
@@ -55,8 +55,9 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-- A Google Sheet [(sample)](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
-- Check out the `template` [knob](KNOBS.md).
+- Create the sheet locally and upload to Google Drive root.
+- [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
+- Use `template` [knob](KNOBS.md) to select another template sheet.
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
