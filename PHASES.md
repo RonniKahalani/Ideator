@@ -21,6 +21,6 @@ These are the 5 phases it goes through:
   - The top 5 ideas are picked, with a fixed tie-break: evidence, then uniqueness, then simple, then cheap.
   - Ideas are mixed into concepts.
   - In `ask` mode Ideator pauses again for you to pick concepts.  
-## Pretotype
+## Preto
   - Tests are written for the picked concepts, with one recommended first test per concept.
   - Creates ready-to-use materials for each test.
