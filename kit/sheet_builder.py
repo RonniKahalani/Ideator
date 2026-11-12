@@ -263,7 +263,8 @@ def build(data: dict, out_dir: Path):
         ["language", kn["language"], "language of the output", f"{notes.get('language', 'set for this run')}"],
         ["format", data.get("format") or "sheet", "output file type: sheet = Google Sheet", (f"copy of report template {data['template_ref']}" if data.get("template_ref") else "built from scratch (no template set)")],
         ["mode", kn.get("mode", "auto"), "generation type: auto or ask", f"{notes.get('mode', 'set for this run')}"],
-        ["template", data.get("template_ref") or "none", "report template sheet: a Google Sheet id, or none = build from scratch", ("template knob for this run (template is never modified)" if data.get("template_ref") else "template: none; built from scratch")]])
+        ["template", data.get("template_ref") or "none", "report template sheet: a Google Sheet id, or none = build from scratch", ("template knob for this run (template is never modified)" if data.get("template_ref") else "template: none; built from scratch")],
+        ["kit", kn.get("kit") or "https://github.com/RonniKahalani/Ideator", "GitHub kit-folder repo", f"{notes.get('kit', 'set for this run')}"]])
     stopped = data.get("run_stopped") or _now_like(data["run_started"])
     W("Problem", ["Field", "Value", "Source", "Notes"], ["text"] * 4, [
         ["Shared title", data["title"], "Ideator", "Report title."],
@@ -372,7 +373,7 @@ def build(data: dict, out_dir: Path):
 
     counts = {t: wb[t].max_row - 1 for t in wb.sheetnames if t != "Tab guide"}
     G = [("Tab guide", "Guide to the tabs", "This tab", "One row per tab with what it holds and its row count. Sort by 'ID sort key' for natural ID order (C9 before C10)."),
-         ("Run knobs", "Run knobs (8 run knobs)", "Run settings", "Actual value of each knob for this run."),
+         ("Run knobs", "Run knobs (9 run knobs)", "Run settings", "Actual value of each knob for this run."),
          ("Problem", "Title and problem statement", "Input", "Shared title, verbatim problem statement, cancelled flag, run start and stop times and run time."),
          ("Key results", "Key results", "Top ideas + First test", "Top three ideas by weighted score and the recommended first test of the best concept, with a Source column per row."),
          ("Sources", "Research sources and summary", "1. Discover", "Real sources with URLs, what each says, and limitations."),
