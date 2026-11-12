@@ -25,9 +25,12 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 
 ### Checks for updates
 When starting a problem task, the bot checks for updates.
+
+This enables distributing and maintaining behavior and resources ex. scripts, data, prompts, skills, rules and alike.
+
 - Uses the GitHub link, in `kit` [knob](KNOBS.md).
-- Looking for new and updated files to download locally (on the bot cloud machine).
-- Ex. scripts, data, prompts...
+- Downloads new and updated files locally (on the bot cloud machine).
+- If a local- and repo file has the same size, no download needed.
 
 ### Follows well-known design processes and principles
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
