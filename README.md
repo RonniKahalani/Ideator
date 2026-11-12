@@ -71,7 +71,7 @@ List of current dependencies to integrations, connectors or plugins.
 
 The realtime web research- and report generation tasks consumes the most credits and time.
 
-An average problem statement report can take 3-10 minutes, or more, depending on the [knob](KNOBS.md) settings.
+An average problem statement report can take 5-10 minutes, or more, depending on the [knob](KNOBS.md) settings.
 
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
