@@ -6,12 +6,11 @@ The kit idea is a way to update local bot features and data, from a remote GitHu
 
 Enables maintaining behavior and resources, ex. scripts, data, prompts, skills, rules and alike.
 
-
 ## Example use case
 
 Ideator needs script `sheet_builder.py` to build the Google Sheet. 
 
-When the sheet design changes, this script has to change too and made available for the bot to download, before its next problem task.
+When the sheet design changes, this script has to change too and be made available for the bot to download, before its next problem task.
 
 ## How it works
 When giving a problem task, the bot checks for updates from a kit repo, defined by `kit` [knob](KNOBS.md).
@@ -22,4 +21,4 @@ When giving a problem task, the bot checks for updates from a kit repo, defined 
 ## Changing the kit repo
 The deafult `kit` value is https://github.com/RonniKahalani/Ideator/tree/main/kit
 
-You can set your own kit repo url via `kit` [knob](KNOBS.md).
+You can set your own kit repo url via the `kit` [knob](KNOBS.md).

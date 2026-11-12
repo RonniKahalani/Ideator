@@ -58,7 +58,8 @@ When giving a problem task, the bot checks for updates from a remote [kit](KIT.m
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-- Create the sheet locally with [`Python/sheet_builder.py`](Python/sheet_builder.py) and upload to Google Drive root.
+- Create report sheet locally with `sheet_builder.py` and upload it to Google Drive root.
+- The `sheet_builder.py` script can be updated locally, via the [kit feature](KIT.md).
 - [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Use `template` [knob](KNOBS.md) to select another template sheet.
 
