@@ -6,15 +6,15 @@ By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com
 ## What Ideator is
 An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches the problem domain, creates cheap testable ideas and delivers a report, in minutes, eagerly waiting to facilitate test plans.
 
-### Problem solving process
-#### The process explained visually
+## Problem solving process
+### The process explained visually
 - These [diagrams](UML.md) explains exactly how the problem solving process works and what's under the hood.
 
-#### A tasks runs in one of two modes
+### A tasks runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
 - `auto` - No interruptions, does all decisionmaking by itself.
 
-#### A tasks ends with a report
+### A tasks ends with a report
 - [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Use `template` [knob](KNOBS.md) to select another template sheet.
 
@@ -23,11 +23,7 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
 ### Kit updates
-When giving a problem task, the bot checks for updates from a repo, defined by `kit` [knob](KNOBS.md).
-
-- Enables maintaining behavior and resources, ex. scripts, data, prompts, skills, rules and alike.
-- Downloads new and updated files locally, on the bot cloud machine.
-- If local- and repo file size differs, do download.
+When giving a problem task, the bot checks for updates from a remote [kit](KIT.md) repo, defined by `kit` [knob](KNOBS.md).
 
 ### Follows well-known design processes and principles
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
@@ -90,6 +86,7 @@ An average problem statement report can take 5-10 minutes, or more, depending on
 - [Grok Bots](GROKBOT.md)
 - [How to use it](HOWTO.md)
 - [Human vs. AI](COMPARE.md)
+- [Kit](KIT.md)
 - [Knobs / Parameters](KNOBS.md)
 - [Marketplace](MARKET.md)
 - [Phases](PHASES.md)
