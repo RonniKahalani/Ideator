@@ -7,6 +7,7 @@ All knobs are optional. The problem statement is the only required input. Knobs 
 | **country** | `United States` | The target launch country for the product or service. It shapes the research sources, the cultural fit of the ideas, and the language of the pretotype materials. Ideator infers it from the problem or research if you do not set it. |
 | **format** | `sheet` | Currently only `sheet` for the report format. |
 | **ideas** | `5` | Number of ideas per challenge. |
+| **kit** | `https://github.com/...` | Link to repo to check for downloads/updates. |
 | **language** | `English` | The language of the report and all output prose. Quotes from sources stay in their original language with a translation. |
  | **mode** | `auto` | The decisionmaking mode: `auto` or `ask`. |
 | **pretotypes** | `4` | Number of pretotype tests. |
