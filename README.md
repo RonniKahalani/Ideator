@@ -19,18 +19,15 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 - Use `template` [knob](KNOBS.md) to select another template sheet.
 
 ## What Ideator does
-- Checks for updates from a repo, via `kit` [knob](KNOBS.md).
 - Takes a problem statement, researches related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
-### Checks for updates
-When starting a problem task, the bot checks for updates.
+### Kit updates
+When giving a problem task, the bot checks for updates from a repo, defined by `kit` [knob](KNOBS.md).
 
-This enables distributing and maintaining behavior and resources ex. scripts, data, prompts, skills, rules and alike.
-
-- Uses the GitHub link, in `kit` [knob](KNOBS.md).
-- Downloads new and updated files locally (on the bot cloud machine).
-- If a local- and repo file has the same size, no download needed.
+- Enables maintaining behavior and resources, ex. scripts, data, prompts, skills, rules and alike.
+- Downloads new and updated files locally, on the bot cloud machine.
+- If local- and repo file size differs, do download.
 
 ### Follows well-known design processes and principles
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
