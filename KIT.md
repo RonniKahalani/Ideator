@@ -12,6 +12,8 @@ Ideator needs script `sheet_builder.py` to build the Google Sheet.
 
 When the sheet design changes, this script has to change too and be made available for the bot to download, before its next problem task.
 
+This kit featue can also be used to make new data and instructions available for the bot via the automatic download feature.
+
 ## How it works
 When giving a problem task, the bot checks for updates from a kit repo, defined by `kit` [knob](KNOBS.md).
 
