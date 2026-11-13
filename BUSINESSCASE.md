@@ -5,13 +5,14 @@ Imagine, you own a small design studio startup and you wants to solve real probl
 Research the challenges behind problems our customers struggle with, generate lots of ideas and concepts to explore new business opportunities or solutions, in specific markets.
 
 ## Resources
-You'd need a team of people for research, design, finance, production, HR, facilitation.... and a lot of time and money to deliver a proper and productive team to solve these problems the best way possible.
+- You need a team of people for research, design, finance, production, HR, facilitation....
+- Time and money to deliver and maintain a high-performance team to solve complex problems and produce great and usefull ideas.
 
 ## Data is key
-Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (**YO**ur **DA**ta).
+- Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (**YO**ur **DA**ta).
 
 ## Build - Measure - Learn
-You must continuously verify: Are we [Building the Right It](PRETOTYPE.md)?
+- You must continuously verify: Are we [Building the Right It](PRETOTYPE.md)?
 
 ## How Ideator improves innovation
 Here are some of the benefits of using Ideator.
