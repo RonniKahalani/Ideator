@@ -1,18 +1,16 @@
 # Kit
+This feature enables Ideator to download updates, from a remote GitHub folder, to a local folder on the bot cloud node.
 
-When sharing a bot template, custom scripts are not included.
-
-The kit idea is a way to update local bot features and data, from a remote GitHub folder.
-
-Enables maintaining behavior and resources, ex. scripts, data, prompts, skills, rules and alike.
+Used update resources, locally on the bot, with updated versions of custom scripts, data, prompts, skills, rules and alike.
 
 ## Example use case
+Ideator depends on the script [sheet_builder.py](kit/sheet_builder.py) script.
 
-Ideator needs the `sheet_builder.py` script to build the report Google Sheet. 
+- It needs it locally on the bot cloud node, to build  Google Sheet reports. 
+- The script [sheet_builder.py](kit/sheet_builder.py) gets downloaded, the very first a problem related chat message is sent. 
 
-When the sheet design changes, this script has to change too and be made available for the bot to download, before its next problem task.
-
-This kit featue can also be used to make new data and instructions available for the bot via the automatic download feature.
+If the sheet design changes
+- This script has to change too and be made available for the bot to download. Otherwise the report will be created by the older version of [sheet_builder.py](kit/sheet_builder.py).
 
 ## How it works
 When giving a problem task, the bot checks for updates from a kit repo, defined by `kit` [knob](KNOBS.md).
