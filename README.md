@@ -23,7 +23,7 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
 ### Kit updates
-When giving a problem task, the bot checks for updates from a remote [kit](KIT.md) repo, defined by the `kit` [knob](KNOBS.md).
+When giving a problem task, the bot checks for updates from a [remote kit repo](KIT.md), defined by the `kit` [knob](KNOBS.md).
 
 ### Follows well-known design processes and principles
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
