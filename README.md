@@ -15,8 +15,7 @@ An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high
 - `auto` - No interruptions, does all decisionmaking by itself.
 
 ### A problem task ends with a report
-- [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
-- Use `template` [knob](KNOBS.md) to select another template sheet.
+- [Sample report](REPORT.md).
 
 ## What Ideator does
 - Takes a problem statement, researches related challenges and generates testable ideas.
@@ -58,10 +57,10 @@ When giving a problem task, the bot checks for updates from a [remote kit repo](
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-- Create report sheet locally with `sheet_builder.py` and upload it to Google Drive root.
-- The `sheet_builder.py` script can be updated locally, via the [kit feature](KIT.md).
-- [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
-- Use `template` [knob](KNOBS.md) to select another template sheet.
+- Generates a report sheet, locally on its cloud node, and uploads it to Google Drive.
+- The sheet generator gets updated, via the [kit feature](KIT.md).
+- [Sample report](REPORT.md).
+
 
 Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
 
@@ -92,6 +91,7 @@ An average problem statement report can take 5-10 minutes, or more, depending on
 - [Marketplace](MARKET.md)
 - [Phases](PHASES.md)
 - [Pretotyping](PRETOTYPE.md)
+- [Report](REPORT.md)
 - [Scoring & Rating](SCORING.md)
 - [UML](UML.md)
 
