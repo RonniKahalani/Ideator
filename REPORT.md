@@ -4,9 +4,7 @@ A problem task ends with a report
 - Use `template` [knob](KNOBS.md) to select another template sheet.
 
 ## Why Google Sheet?
-Initially, the report generator, made a visual board (png), a markdown- and html report.
-
-It was inefficient, clumpsy and sucked data integration-wise.
+Initially, the report generator, made a visual board (png), a markdown- and html report. It was inefficient and sucked data integration-wise.
 
 Instead the format was changed to
 - One single file (xlsx).
