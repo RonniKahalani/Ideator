@@ -14,7 +14,7 @@ Imagine, you own a small design studio startup and you wants to solve real probl
 
 ### Designer
 - More time for creative ideation.
-- Less time on time-consuming research, information overload, knowledge sharing-, getting up to update activities and just wasting time.
+- Less time on time-consuming research, information overload, knowledge sharing-, getting up to date activities and just wasting time.
 
 ## Resources
 You'll need 
