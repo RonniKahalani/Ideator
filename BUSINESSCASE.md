@@ -2,14 +2,27 @@
 Imagine, you own a small design studio startup and you wants to solve real problems for your customers.
 
 ## Mission
-Research the challenges behind problems our customers struggle with, generate lots of ideas and concepts to explore new business opportunities or solutions, in specific markets.
+### Customer
+- To survive their competitors
+- In need for a design partner who solves complex problems quickly and deliver high quality ideas.
+
+### Design Studio
+- To supply the design team with automated research and ideation process tools.
+- Create automated inspirational research- and ideation baseline reports, so the team can get to work from day one.
+- No more starting from scratch with a blank board. 
+- The team is, in minutes, served a fresh researched ideation report, from which they can start their quality assurance process.
+
+### Designer
+- More time for creative ideation.
+- Less time on time-consuming research, information overload, knowledge sharing-, getting up to update activities and wasting time.
 
 ## Resources
-- You need a team of people for research, design, finance, production, HR, facilitation....
-- Time and money to deliver and maintain a high-performance team to solve complex problems and produce great and usefull ideas.
+You'll need 
+- A high-performance team with skills like research, ideation, design, testing, finance, production...
+- Lots of time and money to maintain a high-performance team, especially without an automated research and ideation process.
 
 ## Data is key
-- Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (**YO**ur **DA**ta).
+- Ideas and opinions (assumptions) don't guarantee anything, you need to test your assumptions, in real life, to gather YODA (**YO**ur **DA**ta).
 
 ## Build - Measure - Learn
 - You must continuously verify: Are we [Building the Right It](PRETOTYPE.md)?
