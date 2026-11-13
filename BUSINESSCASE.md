@@ -13,13 +13,13 @@ Ideas and opinions (assumptions) don't guarantee anything, you need to tests you
 ## Build - Measure - Learn
 You must continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
 
-## How Ideator can help you
-Here are some of the benefits of using Ideator:
+## How Ideator improves your innovation process
+Here are some of the benefits of using Ideator.
 ### Reduces waste of time and money
 - Project time, effort and cost drops from weeks to minutes.
 
 ### Automated realtime ideation
-- Research, ideation, decisionmaking working for you 24/7, solving problems.
+- Solves problems 24/7, doing research, ideation, decisionmaking, and never gets tired.
 
 ### Faster client intake
 - Paste the client's problem in plain words and get a structured Double Diamond report back in about 7 to 10 minutes.
