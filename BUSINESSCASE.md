@@ -11,9 +11,9 @@ You'd need a team of people for research, design, finance, production, HR, facil
 Ideas and opinions (assumptions) don't guarantee anything, you need to tests your assumptions, in real life, and gather YODA (**YO**ur **DA**ta).
 
 ## Build - Measure - Learn
-You must continuously verify: Are we [Building the Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0)?
+You must continuously verify: Are we [Building the Right It](PRETOTYPE.md)?
 
-## How Ideator improves your innovation process
+## How Ideator improves innovation
 Here are some of the benefits of using Ideator.
 ### Reduces waste of time and money
 - Project time, effort and cost drops from weeks to minutes.

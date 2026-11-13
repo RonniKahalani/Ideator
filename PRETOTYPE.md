@@ -1,7 +1,7 @@
-# Pretotyping
+# Pretotyping - Building the right it
 Pretotyping was invented by Alberto Savoia.
 
-![](https://i.ytimg.com/vi/3sUozPcH4fY/maxresdefault.jpg)
+[![Building the right it](https://i.ytimg.com/vi/3sUozPcH4fY/maxresdefault.jpg)](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0 "Building the right it")
 
 ## Introduction
 
