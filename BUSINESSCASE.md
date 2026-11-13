@@ -3,12 +3,12 @@ Imagine, you own a small design studio startup and you wants to solve real probl
 
 ## Mission
 ### Customer
-- To survive their competitors
-- In need for a design partner who solves complex problems quickly and deliver high quality ideas.
+- To survive competitively.
+- Needs a design partner who solves complex problems quickly and deliver high quality ideas.
 
 ### Design Studio
-- To supply the design team with automated research and ideation process tools.
-- Create automated inspirational research- and ideation baseline reports, so the team can get to work from day one.
+- Supply the design team with automated research- and ideation process tools.
+- Automated ideation reports to kickstart team insights into the chalenges behind the problem and potenial ideas.
 - No more starting from scratch with a blank board. 
 - The team is, in minutes, served a fresh researched ideation report, from which they can start their quality assurance process.
 
