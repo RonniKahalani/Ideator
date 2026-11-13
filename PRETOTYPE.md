@@ -1,11 +1,10 @@
 # Pretotyping - Building the right it
-Pretotyping was invented by Alberto Savoia.
-
 [![Building the right it](https://i.ytimg.com/vi/3sUozPcH4fY/maxresdefault.jpg)](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0 "Building the right it")
 
 ## Introduction
+Pretotyping was invented by Alberto Savoia.
 
-- Watch his entertaining Stanford YouTube talk on pretotyping [Build The Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0). (32 min.)
+Do yourself a favor, watch his entertaining Stanford YouTube talk on pretotyping [Build The Right It](https://www.youtube.com/watch?v=3sUozPcH4fY&t=4s&pp=ygUSYnVpbGQgdGhlIHJpZ2h0IGl0). (32 min.)
 
 ## Materials
 - [Prototyping vs. Pretotyping](https://www.linkedin.com/pulse/prototyping-vs-pretotyping-comprehensive-guide-benjamin-atieku-dzandu-nbuve/) A Comprehensive Guide.

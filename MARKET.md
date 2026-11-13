@@ -11,5 +11,4 @@ The Ideator bot is currently not shared, published or available on any marketpla
 - None for now. Only runs when you give it a problem statement (+ any optional knobs/parameters).
 
 ## Integrations
-- Web research for sources.
 - Google Drive for report generation.
