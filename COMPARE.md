@@ -1,28 +1,48 @@
 # A week versus one pass: A story of time
-
-Take one problem and go through the whole Double Diamond the old-fashioned way.
+![Brok Bot Workflows](img/grok-bot-workflow.webp)
+## The old-fasioned way
+In the old days we ( a design team) took one problem and went through the whole Double Diamond the old-fashioned way.
 
 Using the [Google Design Sprint](https://learningisliving.dk/wp-content/uploads/2026/11/google-design-sprint-poster.webp) process:
 
-- **Monday** \- A small group books a workshop to discover what is really going on. Everyone brings opinions, a few people bring links, and somebody has to turn the sticky notes into something readable afterwards.  
-- **Tuesday** \- The notes are synthesized into challenges, and the team argues about which ones matter.  
-- **Wednesday and Thursday** \-  Go to developing ideas and scoring them, usually in another workshop, with calendars to match and half the room losing energy.  
-- **Friday** \- Is for choosing what to test and writing up the pretotypes.
+### Monday
+- A small group books a workshop to discover what is really going on.
+- Everyone brings opinions, a few people bring links, and somebody has to turn the sticky notes into something readable afterwards.  
 
-## Time wasted
+### Tuesday
+- The notes are synthesized into challenges, and the team argues about which ones matter.  
 
-Counting the waiting between meetings, the writing and the follow-up mails, one problem takes roughly a week of calendar time. The people are doing real thinking, but a large share of the time goes to scheduling, copying notes between tools and agreeing on a shared picture of the evidence.
+### Wednesday and Thursday
+- Go to developing ideas and scoring them, usually in another workshop, with calendars to match and half the room losing energy.  
+
+### Friday
+- Choosing what to test and writing up the pretotypes.
+
+### Wasting time
+- Waiting between meetings.
+- Writing and the follow-up mails.
+- One problem takes roughly a week of calendar time.
+- The people are doing real thinking, but a large share of the time goes to scheduling.
+- Copying notes between tools and agreeing on a shared picture of the evidence.
 
 The work does not disappear, though; the bottleneck moves.
 
-In the old way the slow part is producing the material. With Ideator the slow part is reviewing it: reading the sources, challenging the scores, deciding which challenges and concepts deserve a test, and running the pretotypes themselves with real people.
+## The new AI-Agent way
+In the old way the slow part is producing the material. 
 
-In ask mode, Ideator stops at the natural decision points, after Define, after Deliver and at the test selection, so your judgment still steers the run.
+With Ideator, the slow part is reviewing it: 
+- Reading the sources.
+- Challenging the scores.
+- Deciding which challenges and concepts deserve a test.
+- Running the pretotypes themselves with real people.
 
-In auto mode it ignores the ask steps and you can review the final report, uninterrupted and “as soon as possible”.
+### In ask mode (human decisionmaking)
+- Stops at the natural decision points, through the ideation phases, so your judgment still steers the run.
+
+### In auto mode (Ideator decisionmaking)
+- Ignores the ask steps and you can review the final report, uninterrupted and “as soon as possible”.
 
 ## What could the time saving mean in dollars?
-
 With Ideator the same path is one pass. 
 - It researches the problem.
 - Turns the findings into sourced challenges. Rates and ranks them.

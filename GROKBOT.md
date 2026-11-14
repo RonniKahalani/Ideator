@@ -1,5 +1,6 @@
-# Grok Bots
-SpaceX **Grok Bots** are long-lived AI agents that live on a cloud computer.  
+# Grok Bot
+![Grok Bot](img/grok-bot.webp)
+SpaceX **Grok Bot** are long-lived AI agents that live on a cloud computer.  
 
 Bots can
 - Keep memory across conversations.
