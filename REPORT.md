@@ -53,10 +53,10 @@ here's why Ideator writes its report as a Google Sheet:
 - Lists challenge selections and reasons.
 
 ### Scoring weights
--Lists all the scoring weights.
+- Lists all the scoring weights.
 
 ### Ideas
-- List all the ideas generated.
+- Lists all the ideas generated.
 
 ### Concepts
 - Lists ideas combined into concepts.

@@ -14,5 +14,5 @@ Open a chat with Ideator and give it a problem statement. A good one says who ha
 
 ## What to expect as a result
 
-At the end of a run you get report
+At the end of a run you get a report
 - [Sample report](REPORT.md).
