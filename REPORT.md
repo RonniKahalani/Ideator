@@ -6,28 +6,27 @@ A problem task ends with a report
 ## Why Google Sheet?
 Initially, the report generator, made a visual board (png), a markdown- and html report. It was inefficient and sucked data integration-wise.
 
-Instead the format was changed to
-- One single file (xlsx).
-- Easy, fast and based on known data integration-, manipulation- and visualization formats.
+It it now a single spreadsheet file (xlsx):
+- Easy, fast and known data integration-, manipulation- and visualization formats.
 - Everyone knows how to use a spreadsheet.
 - Google Drive is one of the most used plaforms for sharing documents.
 
 ## Tabs in the report
 
 ### Introduction
-This tab is a branded part from the template used.
+- A company branded tab defined in the template used.
 
 ### Tab guide
-Information about the different tabs in the sheet.
+- Information about the different tabs in the sheet.
 
 ### Run knobs
-Lists the values of the knobs/parameters for this report.
+- Lists the values of the knobs/parameters for this report.
 
 ### Problem
-States the problem the report covers and some run status.
+- States the problem the report covers and some run status.
 
 ### Key results
-A quick overview of the key ideas.
+- A quick overview of the key ideas.
 
 ### Sources
 - Lists the research sources used in this report.
