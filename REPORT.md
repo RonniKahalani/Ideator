@@ -10,6 +10,18 @@ It it now a single spreadsheet file (xlsx):
 - Easy, fast and known data integration-, manipulation- and visualization formats.
 - Everyone knows how to use a spreadsheet.
 - Google Drive is one of the most used plaforms for sharing documents.
+here's why Ideator writes its report as a Google Sheet:
+
+- It fits the content of a Double Diamond run is mostly tables: sources, sub-problems, scored ideas, concepts, pretotypes and the run knobs. rows and columns hold all of that naturally.
+- Scores stay live, concept averages are real formulas, so if you change a score, the ranking updates by itself.
+- You can sort and filter, freeze panes and filters let you rank ideas, filter by concept, or hide columns without rebuilding anything.
+- One tab per phase, each step gets its own tab, plus a Tab guide, so a client or a colleague can jump straight to the part they care about.
+- Every report looks the same, each run copies the template, so reports match across projects and are easy to compare.
+- It's private but easy to share. It lands owner-only in your own Drive, and sharing is just a normal Google share whenever you decide.
+- People can work on it together, comments, suggestions and editing in the same sheet suit a workshop or client review.
+- It's easy to check if the Drive and Sheets connections can read the sheet back, so every run gets verified against what was built.
+- No extra software, it opens in a browser, exports to Excel or CSV, and works on any device.
+- It's easy to reuse. You can copy tabs into proposals and decks, or chart them, without converting anything first.
 
 ## Tabs in the report
 
