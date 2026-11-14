@@ -79,7 +79,7 @@ An average problem statement report can take 5-10 minutes, or more, depending on
 ## Get your own Ideator bot
 - Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
 
-- Already using Grok Bots? [Get Ideator Grok Bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+- Already using Grok Bots? [Get your own Ideator bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 ## Further details
 - [Business Case](BUSINESSCASE.md)
