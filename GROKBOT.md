@@ -16,7 +16,7 @@ If not, please continue reading about how to to get started with Grok Bot.
 ## Get them Grok Bots running
 So, Grok Bot is new to you, right?
 
-Here is what to do, to get them Grok Bots running, in minutes:
+Here's how to get them Grok Bots running, in minutes:
 
 `Grok Bots needs Premium X-Subscription, or higher.`
 - Pick your [X-Subscription](https://x.ai/pricing) plan.
