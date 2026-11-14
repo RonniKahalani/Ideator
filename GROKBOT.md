@@ -9,14 +9,12 @@ Bots can
 - Be reached via phones, computers and Tesla cars.
 
 ### Import Ideator
-If you're already up and running with Grok Bot, [get your own free Ideator bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+If you're using Grok Bot, [get your own free Ideator bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
 
 If not, please continue reading about how to to get started with Grok Bot.
 
 ## Get them Grok Bots running
-So, Grok Bot is new to you, right?
-
-Here's how to get them Grok Bots running, in minutes:
+So, Grok Bot is new to you, right? Here's how to get them Grok Bots running, in minutes:
 
 `Grok Bots needs Premium X-Subscription, or higher.`
 - Pick your [X-Subscription](https://x.ai/pricing) plan.
