@@ -1,20 +1,21 @@
 # Grok Bots
 SpaceX **Grok Bots** are long-lived AI agents that live on a cloud computer.  
 
-Each bot keeps memory across conversations, can connect to your email, calendar, files, repos, and tools, and can run scheduled or event-triggered routines even when you’re away.  
+Bots can
+- Keep memory across conversations.
+- Connect to your email, calendar, files, repos, and tools.
+- Run scheduled or event-triggered routines even when you’re away.  
+- Handle recurring work or anything that needs to persist and act in your digital world.
+- Be reached via phones, computers and Tesla cars.
 
-They’re ideal for recurring work or anything that needs to persist and act in your digital world.
-
-Your Grok Bots are available on phone, desktop and Tesla devices.
-
-If you're already using Grok Bots, [import Ideator](#import-ideator).
+If you're already using Grok Bots, go [import Ideator](#import-ideator).
 
 ## Get them Grok Bots running
-So, Grok Bot is new to you?
+So, Grok Bot is new to you, right?
 
 Here is what to do, to get them Grok Bots running, in minutes:
 
-`Premium X-Subscription, or higher, for using Grok Bots`
+`Grok Bots needs Premium X-Subscription, or higher.`
 - Pick your [X-Subscription](https://x.ai/pricing) plan.
 - Install [Grok Bot Desktop](https://x.ai/bot).
 

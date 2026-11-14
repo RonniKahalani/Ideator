@@ -76,10 +76,8 @@ The realtime web research- and report generation tasks consumes the most credits
 
 An average problem statement report can take 5-10 minutes, or more, depending on the [knob](KNOBS.md) settings.
 
-## Get your own Ideator bot
-- Are Grok Bots new to you? [Get them Grok Bots running](GROKBOT.md).
-
-- Already using Grok Bots? [Get your own Ideator bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+## Get your own free Ideator bot
+- [Get them Grok Bots running](GROKBOT.md).
 
 ## Further details
 - [Business Case](BUSINESSCASE.md)
