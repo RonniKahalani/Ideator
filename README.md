@@ -1,10 +1,11 @@
 # Ideator
-
 ![](img/grok-ideator-overview.jpg)
 By [Learning Is Living](http://learningisliving.dk), Denmark | [X](https://x.com/RonniKahalani) | [LinkedIn](https://www.linkedin.com/in/kahalani)
 
 ## What Ideator is
-An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches a problem domain, creates cheap testable ideas and delivers a report, in minutes, eagerly waiting to facilitate test plans.
+An AI-Agent (Grok Bot) acting as a hybrid between a creative director and a high-performance product development team, who eats complex problems for breakfast, researches a problem, creates testable ideas and delivers a report, in minutes, eagerly waiting to facilitate test plans.
+
+It's skilled in well-known ideation-, design-, test processes, patterns & principles, from Design Thinking, Double Diamond, Google Design Sprint, Pretotyping and The Startup Way.
 
 ## Problem solving process
 ### The process explained visually
