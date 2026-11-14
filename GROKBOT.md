@@ -8,7 +8,10 @@ Bots can
 - Handle recurring work or anything that needs to persist and act in your digital world.
 - Be reached via phones, computers and Tesla cars.
 
-If you're already using Grok Bots, go [import Ideator](#import-ideator).
+### Import Ideator
+If you're already up and running with Grok Bot, [get your own free Ideator bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+
+If not, please continue reading about how to to get started with Grok Bot.
 
 ## Get them Grok Bots running
 So, Grok Bot is new to you, right?
@@ -19,12 +22,9 @@ Here is what to do, to get them Grok Bots running, in minutes:
 - Pick your [X-Subscription](https://x.ai/pricing) plan.
 - Install [Grok Bot Desktop](https://x.ai/bot).
 
-That's it... 
+That's it...Congratulations and welcome to the Grok Bot Whisperer Club.
 
-Congratulations and welcome to the Grok Bot Whisperer Club. Get ready to automate everything and everyone around you.
-
-### Import Ideator
-If you're up and running with Grok Bot, [get your own free Ideator bot](https://forms.gle/EEa9tBV2Xqge5KNr9).
+Get ready to automate everything and everyone around you.
 
 ## Resources
 - Ideator [documentation](https://github.com/RonniKahalani/Ideator/blob/main/README.md) and [discussion](https://github.com/RonniKahalani/Ideator/discussions).
