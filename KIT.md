@@ -1,4 +1,5 @@
 # Kit
+![](img/github-kit.png)
 This feature enables Ideator to download files, from a remote GitHub folder, to its cloud node.
 
 Used to update resources, like scripts, data, prompts, skills, rules and alike.
@@ -21,3 +22,6 @@ When giving a problem task, the bot checks for updates from a kit repo, defined 
 ## Changing the kit repo
 - The deafult `kit` value is https://github.com/RonniKahalani/Ideator/tree/main/kit
 - You can set your own kit repo url via the `kit` [knob](KNOBS.md).
+
+## See also
+- Using the [AGENT.md](AGENT.md) for AI instructions.
