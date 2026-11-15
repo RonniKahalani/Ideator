@@ -37,6 +37,9 @@ When giving a problem task, the bot checks for updates from a [remote kit repo](
 - [The Startup Way](https://www.thestartupway.com)
     - Build - Measure - Learn, YODA, MVP testing, pivot or persevere.
 
+### Specific behaviours
+If you need specific behaviors, use the [AGENT.md](AGENT.md) file.
+
 ### Research problems and related challenges
 * Research the web, in realtime, for real evidence about your problem.
 * Explores complaints, reviews, forum threads, articles and how competitors handle it.  
