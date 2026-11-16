@@ -3,8 +3,18 @@ Ideator uploads Google Sheet reports to your Google Drive.
 - [Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Use `template` [knob](KNOBS.md) to reference an existing sheet to use as a template with custom branding and features.
 - A report is private, until you share it yourself.
+- The sheet generator gets updated, via the [kit feature](KIT.md).
+
+## Changing the report design
+Reports are build with .
+Ideator uses [sheet_builder.py](kit/sheet_builder.py) locally, on its cloud node, to build a Google Sheet report. 
+
+- Tell Ideator what you want to change about the sheet design.
+- If your changes involve changes to this script, have Ideator copy and refactor its own local [sheet_builder.py](kit/sheet_builder.py) and upload/merge the changes into the repo kit folder.
+- A merged [sheet_builder.py](kit/sheet_builder.py) gets automatically downloaded, by Ideator, right before its next problem solving task. 
 
 ## Tabs in a report
+These are the tabs in the report sheet, with a short description.
 
 ### Introduction
 - A company branded tab defined in the template used.

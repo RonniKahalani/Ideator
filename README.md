@@ -56,7 +56,6 @@ A specialist in well-known ideation-, design-, test processes, patterns & princi
 
 ### Generate reports
 - Generates a [report sheet](REPORT.md)
-- The sheet generator gets updated, via the [kit feature](KIT.md).
 
 ### Customize default behaviours
 Custom behaviors are enabled via the [AGENT.md](AGENT.md) file.
