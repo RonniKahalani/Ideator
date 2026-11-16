@@ -11,11 +11,11 @@ A specialist in well-known ideation-, design-, test processes, patterns & princi
 ### The process explained visually
 - These [diagrams](UML.md) explains exactly how the problem solving process works and what's under the hood.
 
-### A problem task runs in one of two modes
+### A problem solving task runs in one of two modes
 - `ask` - Asks the user for decisions in each [phase](PHASES.md).
 - `auto` - No interruptions, does all decisionmaking by itself.
 
-### A problem task ends with a report
+### A problem solving task ends with a report
 - [Sample report](REPORT.md).
 
 ## What Ideator does
@@ -55,7 +55,8 @@ A specialist in well-known ideation-, design-, test processes, patterns & princi
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-- Generates a [report sheet](REPORT.md)
+Generates a report
+- [Sample report](REPORT.md)
 
 ## Customize behaviours
 You can customize the default behavior of Ideator, via a [AGENT.md](AGENT.md) file, located in its Ideator folder.

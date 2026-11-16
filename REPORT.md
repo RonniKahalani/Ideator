@@ -1,6 +1,6 @@
 # Report
 Ideator generates and uploads a Google Sheet report to your Google Drive as a result of a problem solving task.
-- [Sample Report](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
+- [Sample report](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
 - Use `template` [knob](KNOBS.md) to reference an existing sheet to use as a template with custom branding and features.
 - A report is private, until you share it yourself.
 - The sheet generator gets updated, via the [kit feature](KIT.md).
