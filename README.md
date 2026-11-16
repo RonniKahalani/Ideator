@@ -57,12 +57,12 @@ A specialist in well-known ideation-, design-, test processes, patterns & princi
 ### Generate reports
 - Generates a [report sheet](REPORT.md)
 
-### Customize default behaviours
-Custom behaviors are enabled via the [AGENT.md](AGENT.md) file.
+## Customize behaviours
+You can customize the default behavior of Ideator, via a [AGENT.md](AGENT.md) file, located in its Ideator folder.
 
-Before solving a problem task, Ideator checks:
-- Any file downloads from a [remote kit repo](KIT.md), like behaviors (scripts), context, data, instructions...
-- Read and adapt to the AGENT.md instructions.
+Before solving a problem task, Ideator checks for:
+- Any new file downloads from a [remote kit repo](KIT.md), like behaviors (scripts), context, data, instructions...
+- Any [AGENT.md](AGENT.md) file, which Ideator will read and adapt to.
 
 ## Dependencies
 List of current dependencies to integrations, connectors or plugins.
