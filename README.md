@@ -22,9 +22,6 @@ A specialist in well-known ideation-, design-, test processes, patterns & princi
 - Takes a problem statement, researches related challenges and generates testable ideas.
 - Cuts traditional research- and test time (costs), from weeks to minutes.
 
-### Kit updates
-When giving a problem task, the bot checks for updates from a [remote kit repo](KIT.md), defined by the `kit` [knob](KNOBS.md).
-
 ### Follows well-known design processes and principles
 - [Design Thinking](https://grokipedia.com/page/Design_thinking)
     - Helps tackling complex problems by prioritizing empathy for end-users, collaborative ideation, rapid prototyping, and continuous testing to generate innovative solutions.
@@ -36,9 +33,6 @@ When giving a problem task, the bot checks for updates from a [remote kit repo](
     - Small fake-it tests to prove whether people really want your idea, before anyone starts building an expensive prototype.
 - [The Startup Way](https://www.thestartupway.com)
     - Build - Measure - Learn, YODA, MVP testing, pivot or persevere.
-
-### Specific behaviours
-If you need specific behaviors, use the [AGENT.md](AGENT.md) file.
 
 ### Research problems and related challenges
 * Research the web, in realtime, for real evidence about your problem.
@@ -61,12 +55,15 @@ If you need specific behaviors, use the [AGENT.md](AGENT.md) file.
 * You can limit the number of pretotype tests across concepts, via the `pretotypes` [knob](KNOBS.md).
 
 ### Generate reports
-- Generates a report sheet, locally on its cloud node, and uploads it to Google Drive.
+- Generates a [report sheet](REPORT.md)
 - The sheet generator gets updated, via the [kit feature](KIT.md).
-- [Sample report](REPORT.md).
 
+### Customize default behaviours
+Custom behaviors are enabled via the [AGENT.md](AGENT.md) file.
 
-Use the `template`knop to reference an existing Sheet to use as a template. Enabling custom branding and features.
+Before solving a problem task, Ideator checks:
+- Any file downloads from a [remote kit repo](KIT.md), like behaviors (scripts), context, data, instructions...
+- Read and adapt to the AGENT.md instructions.
 
 ## Dependencies
 List of current dependencies to integrations, connectors or plugins.

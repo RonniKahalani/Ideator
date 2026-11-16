@@ -1,8 +1,10 @@
 # Report
-A problem task ends with a report
-- [Google Sheet Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
-- Use `template` [knob](KNOBS.md) to select another template sheet.
-## Tabs in the report
+Ideator uploads Google Sheet reports to your Google Drive.
+- [Report Sample](https://docs.google.com/spreadsheets/d/1HZpJBYYJQtU06iVmak6Kp8x2TslsaGx1/edit?usp=drive_link&ouid=106568148712124039315&rtpof=true&sd=true).
+- Use `template` [knob](KNOBS.md) to reference an existing sheet to use as a template with custom branding and features.
+- A report is private, until you share it yourself.
+
+## Tabs in a report
 
 ### Introduction
 - A company branded tab defined in the template used.
